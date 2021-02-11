@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	run_susier_ref
+	1
+Select jobs to execute...
+
+[Wed Jan 20 20:27:57 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.83514944_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.83514944_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_1_.95_snps.txt
+    jobid: 0
+    wildcards: q=tibia.12.83514944, l=1, cov=.95
+
+[Wed Jan 20 20:28:00 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2021-01-20T202756.983318.snakemake.log

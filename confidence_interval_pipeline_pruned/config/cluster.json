@@ -1,0 +1,137 @@
+{
+	"__default__" :
+	{
+		"queue"     : "highp",
+		"memory"    : "5G",
+		"name"      : "{rule}",
+		"output"    : "logs/{rule}.{wildcards}.out",
+		"error"     : "logs/{rule}.{wildcards}.err",
+		"mail"		: "a",
+		"time"		: "23:59:59",
+		"cores"     : "1"
+	},
+
+	"combineQtlsPrunedSNPs" :
+	{
+		"queue"     : "highp",
+		"memory"    : "25G",
+		"name"      : "{rule}",
+		"output"    : "logs/{rule}.{wildcards.chr}.out",
+		"error"     : "logs/{rule}.{wildcards.chr}.err",
+		"time"		: "00:59:59"
+	},
+
+	"subsetPrunedSNPs" :
+	{
+		"queue"     : "highp",
+		"memory"    : "10G",
+		"name"      : "{rule}",
+		"output"    : "logs/{rule}.{wildcards.chr}.out",
+		"error"     : "logs/{rule}.{wildcards.chr}.err",
+		"time"		: "00:59:59"
+	},
+
+	"mixedModelHeritabilities" :
+	{
+		"queue"     : "highp",
+		"memory"    : "5G",
+		"name"      : "{rule}",
+		"output"    : "logs/{rule}.out",
+		"error"     : "logs/{rule}.err",
+		"time"		: "23:59:59",
+		"cores"		: "10"
+	},
+
+	"genomeScans" :
+	{
+		"queue"     : "highp",
+		"memory"    : "20G",
+		"name"      : "{rule}",
+		"output"    : "logs/{rule}.{wildcards.pheno}.out",
+		"error"     : "logs/{rule}.{wildcards.pheno}.err",
+		"time"		: "23:59:59"
+	},
+
+	"simulateConfidenceIntervals" :
+	{
+		"queue"     : "highp",
+		"memory"    : "15G",
+		"name"      : "{rule}",
+		"output"    : "logs/{rule}.{wildcards.q}.out",
+		"error"     : "logs/{rule}.{wildcards.q}.err",
+		"time"		: "23:59:59"
+	},
+
+	"evaluateConfidenceIntervals" :
+	{
+		"queue"     : "highp",
+		"memory"    : "20G",
+		"name"      : "{rule}",
+		"output"    : "logs/{rule}.out",
+		"error"     : "logs/{rule}.err",
+		"time"		: "23:59:59"
+	},
+	"susier_input" :
+    {
+        "queue"     : "highp",
+        "memory"    : "10G",
+        "name"      : "{rule}",
+        "output"    : "logs/{rule}.out",
+        "error"     : "logs/{rule}.err",
+        "time"      : "00:59:59"
+    },
+	"locus_zoom_input" :
+    {
+        "queue"     : "highp",
+        "memory"    : "5G",
+        "name"      : "{rule}",
+        "output"    : "logs/{rule}.{wildcards.q}.out",
+        "error"     : "logs/{rule}.{wildcards.q}.err",
+        "time"      : "00:59:59"
+    },
+
+	"plot_ci" :
+    {
+        "queue"     : "highp",
+        "memory"    : "5G",
+        "name"      : "{rule}",
+        "output"    : "logs/{rule}.{wildcards.q}.out",
+        "error"     : "logs/{rule}.{wildcards.q}.err",
+        "time"      : "00:59:59"
+    },
+
+	"run_susier" :
+    {
+        "queue"     : "highp",
+        "memory"    : "5G",
+        "name"      : "{rule}",
+        "output"    : "logs/{rule}.{wildcards.q}.out",
+        "error"     : "logs/{rule}.{wildcards.q}.err",
+        "time"      : "00:59:59"
+    },
+
+
+	"annovar_input" :
+    {
+        "queue"     : "highp",
+        "memory"    : "5G",
+        "name"      : "{rule}",
+        "output"    : "logs/{rule}.{wildcards.q}.out",
+        "error"     : "logs/{rule}.{wildcards.q}.err",
+        "time"      : "00:59:59"
+    },
+
+	"summarize_finemapping" :
+    {
+        "queue"     : "highp",
+        "memory"    : "5G",
+        "name"      : "{rule}",
+        "output"    : "logs/{rule}.{wildcards.q}.out",
+        "error"     : "logs/{rule}.{wildcards.q}.err",
+        "time"      : "23:59:59"
+    }
+
+}
+
+
+

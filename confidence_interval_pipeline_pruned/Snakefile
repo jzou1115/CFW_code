@@ -1,0 +1,241 @@
+import pandas as pd
+import os 
+
+##### load config and sample list #####
+
+#configfile: "config/config_uc.yaml" # for uc analysis
+#configfile: "config/config_ox.yaml" #for ox analysis
+configfile: "config/config.yaml" #for mega analysis
+
+
+chromosomes = pd.read_table(config["chromosomes"], header=None)[0]
+phenotypes = pd.read_table(config["phenotypes"], header=None)[0]
+qtlF = config["qtls"]
+qtlids = pd.read_table(config["qtl_ids"], header=None)[0]
+
+dos = config["dosages"]
+ann = config["annot"]
+pru = config["prune"]
+phe = config["pheno"]
+phe_all = config["pheno_all"]
+K= config["kinship"]
+
+outdir = config["outdir"] #base directory for output
+mmdir = os.path.join(outdir, "mm")
+gdir = os.path.join(outdir, "genotypes")
+cidir = os.path.join(outdir, "confidence_intervals")
+scandir = os.path.join(outdir, "scans")
+fine_dir = os.path.join(outdir, "finemapping")
+zdir = config["zdir"]
+ddir = config["ddir"]
+study = config["study"]
+
+qtl2chr = {}
+for q in qtlids:
+	tokens = q.split(".")
+	chrm = tokens[1]
+	qtl2chr[q] = chrm
+
+qtl2pheno = {}
+for q in qtlids:
+	tokens = q.split(".")
+	pheno = tokens[0]
+	qtl2pheno[q] = pheno
+
+##### target rule #####
+rule all:
+	input: 
+
+
+##### preprocessing rules #####
+rule combineQtlsPrunedSNPs:
+	input:
+		pru,
+		qtlF
+	output:
+		os.path.join(gdir, "chr{chr}.oxinfo90.txt") 
+	params:
+		"{chr}"
+	script:
+		"scripts/combineQtlsPrunedSNPs.py"		
+
+rule subsetPrunedSNPs:
+	input:
+		dosage=dos,
+		annot=ann,
+		prune=os.path.join(gdir, "chr{chr}.oxinfo90.txt"),
+		pheno=phe_all
+	params:
+		outdir=gdir
+	output:
+		out=os.path.join(gdir, "chr{chr}.oxinfo90.Rdata")
+	script:
+		"scripts/subset_pruned_snps.R"
+
+rule makeKinship:
+	input:
+		genotypes = expand(os.path.join(gdir, "chr{chr}.oxinfo90.Rdata"), chr=chromosomes)
+	output:
+		output = K
+	script:
+		"scripts/makeKinshipRData.R"
+
+rule mixedModelHeritabilities:
+	input:
+		kinship=K,
+		kinship=os.path.join(gdir, "kinship_matrices.RData"),
+		pheno=phe
+	params:
+		outdir=os.path.join(outdir, "mm")
+	output:
+		expand(mmdir+"/emma.{pheno}.RData", pheno = phenotypes)
+	script:
+		"scripts/confidence_intervals_mega_0.R"
+
+rule genomeScans:
+	input:
+		mmF=os.path.join(mmdir, "emma.{pheno}.RData")
+	params:
+		scan_dir=scandir,
+		g_dir=gdir
+	output:
+		expand(os.path.join(scandir, "{pheno}.{chr}.permute.RData"), chr=chromosomes, allow_missing=True)
+	script:
+		"scripts/confidence_intervals_mega_1.R"
+
+
+rule simulateConfidenceIntervals:
+	input:
+		qtls = qtlF,
+		genoFiles = expand(os.path.join(gdir, "chr{chr}.oxinfo90.Rdata"), chr=chromosomes),
+		mmFiles = expand(mmdir+"/emma.{pheno}.RData", pheno = phenotypes)	
+	params:
+		qtl = "{q}",
+		g_dir=gdir,
+		mm_dir = mmdir,
+		ci_out = cidir
+	output:
+		os.path.join(cidir, "{q}.CI.RData")
+	script:
+		"scripts/confidence_intervals_mega_2.R"
+
+rule evaluateConfidenceIntervals:
+	input:
+		expand(os.path.join(scandir, "{pheno}.{chr}.permute.RData"), chr=chromosomes, pheno=phenotypes),
+		expand(os.path.join(cidir, "{q}.CI.RData"), q=qtlids)
+	params:
+		scan_dir=scandir,
+		ci_out=cidir
+	output:
+		os.path.join(cidir, "CI_pruned.txt")
+	script:
+		"scripts/confidence_intervals_mega_3.R"
+
+def getZFile(wildcards):
+
+	for w in wildcards:
+		if w in qtlids:
+			break
+	tokens = w.split(".")
+	pheno =".".join( tokens[:-2])
+	return os.path.join(zdir, pheno+"."+study+".assoc.txt.gz")
+
+def getDFile(wildcards):
+	for w in wildcards:
+		if w in qtlids:
+			break
+	tokens = w.split(".")
+	chrm = tokens[-2]
+	return  os.path.join(ddir, "combined.chr"+chrm +".oxinfo90.dosages.gz")
+
+def getPFile(wildcards):
+	for w in wildcards:
+		if w in qtlids:
+			break
+	tokens = w.split(".")
+	chrm = tokens[-2]
+	return os.path.join(gdir, "chr"+chrm+".oxinfo90.txt")
+
+rule susier_input:
+	input:
+		ci = os.path.join(cidir, "CI_pruned.txt"),
+		prune = getPFile,
+		z = getZFile,
+		d = getDFile
+	params:
+		qtl="{q}",
+		outdir=os.path.join(fine_dir, "input"),
+		quantile=0.95,
+	output:
+		os.path.join(fine_dir, "input", "{q}_pruned_sorted.z"),
+		os.path.join(fine_dir, "input", "{q}_pruned_sorted.ld")
+	script:
+		"scripts/susier_input.py"
+
+rule run_susier:
+	input:
+		z=os.path.join(fine_dir, "input", "{q}_pruned_sorted.z"),
+		ld=os.path.join(fine_dir, "input", "{q}_pruned_sorted.ld")
+	params:
+		prefix=os.path.join(fine_dir, "output", "{q}"),
+		L="{l}",
+		coverage="{cov}"
+	output:
+		os.path.join(fine_dir, "output", "{q}_{l}_{cov}_snps.txt")
+	script:
+		"scripts/run_susier_ref.R"
+
+rule locus_zoom_input:
+	input:
+		ci=os.path.join(cidir, "CI_pruned.txt"),
+		g_dir=gdir
+		d_dir=dos
+	params:
+		outdir=os.path.join(outdir, "locuszoom"),
+		qtl="{q}",
+		quantile=0.95
+	output:
+		os.path.join(outdir, "locuszoom", "{q}_r2.txt")
+	script:
+		"scripts/locuszoom_input.py"	
+
+rule annovar_input:
+	input:
+		snps=os.path.join(fine_dir, "output", "{q}_snps.txt"),
+		r2=os.path.join(outdir, "locuszoom", "{q}_r2.txt"),
+	output:
+		outfile=os.path.join(fine_dir, "output", "{q}_annovar_input.txt")
+	script:
+		"scripts/annovar_input_fixRef.py"	
+
+rule annovar:
+	input:
+		snps=os.path.join(fine_dir, "output", "annovar_input_snps.txt")
+	output:
+		outfile=os.path.join(fine_dir, "output", "annovar_input_snps.txt.exonic_variant_function")	
+	run:
+		shell("cd /u/home/j/jzou1115/project-ernst/software/annovar/")
+		shell("/u/home/j/jzou1115/project-ernst/software/annovar/annotate_variation.pl -geneanno -dbtype refGene -buildver mm10 input.snps /u/home/j/jzou1115/project-ernst/software/annovar/mm10db")
+
+
+rule plot_ci:
+	input:
+		z_dir = "/u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/COMBINED",
+		ld = os.path.join(outdir, "locuszoom", "{q}_r2.txt"), 
+		ci = os.path.join(cidir, "CI_pruned.txt")
+	output:
+		outfile = os.path.join(cidir, "plots", "{q}.png")
+	script:
+		"scripts/plot_ci.py"
+
+rule summarize_finemapping:
+	input:
+		f=os.path.join(fine_dir, "output", "{q}_snps.txt")
+	params:
+		outdir=os.path.join(fine_dir, "output")
+	output:
+		os.path.join(fine_dir, "output", "{q}_all_snps.txt"),
+		os.path.join(fine_dir, "output", "{q}_finemap_snps.txt")
+	script:
+		"scripts/summarize_finemapping.py"
+			

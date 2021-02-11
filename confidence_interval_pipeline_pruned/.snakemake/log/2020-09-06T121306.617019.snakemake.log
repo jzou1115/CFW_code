@@ -1,0 +1,5 @@
+Building DAG of jobs...
+InputFunctionException in line 174 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+NameError: name 'z' is not defined
+Wildcards:
+q=TA.15.90589642

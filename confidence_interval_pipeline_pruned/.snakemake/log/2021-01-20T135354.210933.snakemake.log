@@ -1,0 +1,5 @@
+ValueError in line 49 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Single '}' encountered in format string
+  File "/u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile", line 49, in <module>
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/string.py", line 190, in vformat
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/string.py", line 200, in _vformat

@@ -1,0 +1,31 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	32	run_susier_ref
+	33
+Select jobs to execute...
+
+[Wed Jan 20 13:28:25 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.2.156430745_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.2.156430745_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/EDL.2.156430745.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/EDL.2.156430745.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/EDL.2.156430745_snps.txt
+    jobid: 35
+    wildcards: q=EDL.2.156430745
+
+Waiting at most 5 seconds for missing files.
+MissingOutputException in line 194 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Job Missing files after 5 seconds:
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/EDL.2.156430745.RData
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/EDL.2.156430745.png
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/EDL.2.156430745_snps.txt
+This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait.
+Job id: 35 completed successfully, but some output files are missing. 35
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 575, in handle_job_success
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 254, in handle_job_success
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2021-01-20T132819.467016.snakemake.log

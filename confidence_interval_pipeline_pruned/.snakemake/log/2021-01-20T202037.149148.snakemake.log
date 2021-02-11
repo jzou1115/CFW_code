@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	run_susier_ref
+	1
+Select jobs to execute...
+
+[Wed Jan 20 20:20:38 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.83514944_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.83514944_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_1_.95.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_1_.95.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_1_.95_snps.txt
+    jobid: 0
+    wildcards: q=tibia.12.83514944, l=1, cov=.95
+
+[Wed Jan 20 20:20:41 2021]
+Error in rule run_susier_ref:
+    jobid: 0
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_1_.95.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_1_.95.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_1_.95_snps.txt
+
+RuleException:
+CalledProcessError in line 207 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Command 'set -euo pipefail;  Rscript --vanilla /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/scripts/tmplvxb2hii.run_susier_ref.R' returned non-zero exit status 1.
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2339, in run_wrapper
+  File "/u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile", line 207, in __rule_run_susier_ref
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2351, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2021-01-20T202037.149148.snakemake.log

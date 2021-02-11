@@ -1,0 +1,22 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	1	annovar_input2
+	32	run_susier_ref
+	34
+Select jobs to execute...
+
+[Wed Jan 20 13:29:12 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.15.11690201_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.15.11690201_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/tibia.15.11690201.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/tibia.15.11690201.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output_ref/tibia.15.11690201_snps.txt
+    jobid: 61
+    wildcards: q=tibia.15.11690201
+
+Waiting at most 600 seconds for missing files.
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

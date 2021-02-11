@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 251 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Missing input files for rule summarize_finemapping:
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/EDL.12.83885241_snps.txt

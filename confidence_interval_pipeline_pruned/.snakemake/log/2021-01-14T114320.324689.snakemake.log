@@ -1,0 +1,1244 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	all
+	102	annovar_input2
+	103
+Select jobs to execute...
+
+[Thu Jan 14 11:43:21 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.23814155_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.5.23814155_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.23814155_annovar_input_fixRef.txt
+    jobid: 77
+    wildcards: q=bmd.5.23814155
+
+Submitted job 77 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:23 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.11.32268598_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_annovar_input_fixRef.txt
+    jobid: 105
+    wildcards: q=tibia.11.32268598
+
+Submitted job 105 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:25 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.begin.11.96964818_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_annovar_input_fixRef.txt
+    jobid: 21
+    wildcards: q=activity.begin.11.96964818
+
+Submitted job 21 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:26 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.7101524_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/basal.activity.13.7101524_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.7101524_annovar_input_fixRef.txt
+    jobid: 64
+    wildcards: q=basal.activity.13.7101524
+
+Submitted job 64 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:27 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.24922475_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.5.24922475_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.24922475_annovar_input_fixRef.txt
+    jobid: 78
+    wildcards: q=bmd.5.24922475
+
+Submitted job 78 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:28 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.2.155812908_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/plantaris.2.155812908_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.2.155812908_annovar_input_fixRef.txt
+    jobid: 92
+    wildcards: q=plantaris.2.155812908
+
+Submitted job 92 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:30 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.11.33440009_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_annovar_input_fixRef.txt
+    jobid: 106
+    wildcards: q=tibia.11.33440009
+
+Submitted job 106 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:31 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.8153523_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.begin.13.8153523_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.8153523_annovar_input_fixRef.txt
+    jobid: 23
+    wildcards: q=activity.begin.13.8153523
+
+Submitted job 23 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:32 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.10150339_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.middle.13.10150339_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.10150339_annovar_input_fixRef.txt
+    jobid: 37
+    wildcards: q=activity.middle.13.10150339
+
+Submitted job 37 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:33 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/basal.activity.13.8209788_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_annovar_input_fixRef.txt
+    jobid: 65
+    wildcards: q=basal.activity.13.8209788
+
+Submitted job 65 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:35 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.27366822_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.5.27366822_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.27366822_annovar_input_fixRef.txt
+    jobid: 79
+    wildcards: q=bmd.5.27366822
+
+Submitted job 79 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:36 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.4.85394581_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/plantaris.4.85394581_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.4.85394581_annovar_input_fixRef.txt
+    jobid: 93
+    wildcards: q=plantaris.4.85394581
+
+Submitted job 93 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:37 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.95761488_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.11.95761488_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.95761488_annovar_input_fixRef.txt
+    jobid: 107
+    wildcards: q=tibia.11.95761488
+
+Submitted job 107 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:39 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.95582360_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.n.11.95582360_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.95582360_annovar_input_fixRef.txt
+    jobid: 80
+    wildcards: q=bmd.n.11.95582360
+
+Submitted job 80 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:40 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.7101524_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.middle.13.7101524_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.7101524_annovar_input_fixRef.txt
+    jobid: 38
+    wildcards: q=activity.middle.13.7101524
+
+Submitted job 38 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:41 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.9.87855594_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/plantaris.9.87855594_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.9.87855594_annovar_input_fixRef.txt
+    jobid: 94
+    wildcards: q=plantaris.9.87855594
+
+Submitted job 94 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:43 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.9154368_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.begin.13.9154368_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.9154368_annovar_input_fixRef.txt
+    jobid: 24
+    wildcards: q=activity.begin.13.9154368
+
+Submitted job 24 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:44 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.96952835_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.11.96952835_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.96952835_annovar_input_fixRef.txt
+    jobid: 108
+    wildcards: q=tibia.11.96952835
+
+Submitted job 108 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:45 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.94758993_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.a.11.94758993_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.94758993_annovar_input_fixRef.txt
+    jobid: 66
+    wildcards: q=bmd.a.11.94758993
+
+Submitted job 66 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:46 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.95761488_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.a.11.95761488_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.95761488_annovar_input_fixRef.txt
+    jobid: 67
+    wildcards: q=bmd.a.11.95761488
+
+Submitted job 67 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:48 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.96918212_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.n.11.96918212_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.96918212_annovar_input_fixRef.txt
+    jobid: 81
+    wildcards: q=bmd.n.11.96918212
+
+Submitted job 81 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:49 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.113404971_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/soleus.13.113404971_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.113404971_annovar_input_fixRef.txt
+    jobid: 95
+    wildcards: q=soleus.13.113404971
+
+Submitted job 95 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:51 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.83514944_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.12.83514944_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.83514944_annovar_input_fixRef.txt
+    jobid: 109
+    wildcards: q=tibia.12.83514944
+
+Submitted job 109 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:52 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.89917236_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.begin.2.89917236_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.89917236_annovar_input_fixRef.txt
+    jobid: 26
+    wildcards: q=activity.begin.2.89917236
+
+Submitted job 26 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:53 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8800578_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.middle.13.8800578_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8800578_annovar_input_fixRef.txt
+    jobid: 40
+    wildcards: q=activity.middle.13.8800578
+
+Submitted job 40 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:55 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.96913720_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.a.11.96913720_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.96913720_annovar_input_fixRef.txt
+    jobid: 68
+    wildcards: q=bmd.a.11.96913720
+
+Submitted job 68 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:56 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.18.38930957_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.n.18.38930957_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.18.38930957_annovar_input_fixRef.txt
+    jobid: 82
+    wildcards: q=bmd.n.18.38930957
+
+Submitted job 82 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:43:58 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.114802392_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/soleus.13.114802392_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.114802392_annovar_input_fixRef.txt
+    jobid: 96
+    wildcards: q=soleus.13.114802392
+
+Submitted job 96 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:00 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91175287_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.12.91175287_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91175287_annovar_input_fixRef.txt
+    jobid: 110
+    wildcards: q=tibia.12.91175287
+
+Submitted job 110 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:01 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.95636638_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.end.11.95636638_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.95636638_annovar_input_fixRef.txt
+    jobid: 27
+    wildcards: q=activity.end.11.95636638
+
+Submitted job 27 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:03 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.100053320_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.11.100053320_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.100053320_annovar_input_fixRef.txt
+    jobid: 69
+    wildcards: q=bmd.11.100053320
+
+Submitted job 69 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:04 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.n.5.23815043_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_annovar_input_fixRef.txt
+    jobid: 83
+    wildcards: q=bmd.n.5.23815043
+
+Submitted job 83 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:06 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.9242435_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/soleus.13.9242435_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.9242435_annovar_input_fixRef.txt
+    jobid: 97
+    wildcards: q=soleus.13.9242435
+
+Submitted job 97 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:08 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91722613_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.12.91722613_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91722613_annovar_input_fixRef.txt
+    jobid: 111
+    wildcards: q=tibia.12.91722613
+
+Submitted job 111 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:09 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.11500538_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.15.11500538_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.11500538_annovar_input_fixRef.txt
+    jobid: 112
+    wildcards: q=tibia.15.11500538
+
+Submitted job 112 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:11 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.93469819_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.11.93469819_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.93469819_annovar_input_fixRef.txt
+    jobid: 70
+    wildcards: q=bmd.11.93469819
+
+Submitted job 70 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:12 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.2.155505679_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/soleus.2.155505679_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.2.155505679_annovar_input_fixRef.txt
+    jobid: 98
+    wildcards: q=soleus.2.155505679
+
+Submitted job 98 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:14 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.n.5.24920012_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_annovar_input_fixRef.txt
+    jobid: 84
+    wildcards: q=bmd.n.5.24920012
+
+Submitted job 84 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:15 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.10150339_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.end.13.10150339_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.10150339_annovar_input_fixRef.txt
+    jobid: 29
+    wildcards: q=activity.end.13.10150339
+
+Submitted job 29 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:17 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.94772022_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.11.94772022_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.94772022_annovar_input_fixRef.txt
+    jobid: 71
+    wildcards: q=bmd.11.94772022
+
+[Thu Jan 14 11:44:17 2021]
+Finished job 105.
+1 of 103 steps (0.97%) done
+[Thu Jan 14 11:44:17 2021]
+Finished job 21.
+2 of 103 steps (2%) done
+[Thu Jan 14 11:44:19 2021]
+Finished job 106.
+3 of 103 steps (3%) done
+Submitted job 71 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:19 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.79954876_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/gastroc.11.79954876_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.79954876_annovar_input_fixRef.txt
+    jobid: 85
+    wildcards: q=gastroc.11.79954876
+
+Submitted job 85 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:20 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.3.15783853_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/soleus.3.15783853_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.3.15783853_annovar_input_fixRef.txt
+    jobid: 99
+    wildcards: q=soleus.3.15783853
+
+Submitted job 99 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:22 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.12517342_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.15.12517342_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.12517342_annovar_input_fixRef.txt
+    jobid: 113
+    wildcards: q=tibia.15.12517342
+
+Submitted job 113 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:23 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.6323352_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.end.13.6323352_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.6323352_annovar_input_fixRef.txt
+    jobid: 30
+    wildcards: q=activity.end.13.6323352
+
+Submitted job 30 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:25 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.95761488_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.11.95761488_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.95761488_annovar_input_fixRef.txt
+    jobid: 72
+    wildcards: q=bmd.11.95761488
+
+Submitted job 72 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:26 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.88973192_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/gastroc.11.88973192_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.88973192_annovar_input_fixRef.txt
+    jobid: 86
+    wildcards: q=gastroc.11.88973192
+
+Submitted job 86 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:28 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.15600158_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/soleus.6.15600158_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.15600158_annovar_input_fixRef.txt
+    jobid: 100
+    wildcards: q=soleus.6.15600158
+
+Submitted job 100 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:30 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.39698535_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.5.39698535_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.39698535_annovar_input_fixRef.txt
+    jobid: 114
+    wildcards: q=tibia.5.39698535
+
+Submitted job 114 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:31 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.total.11.93418612_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_annovar_input_fixRef.txt
+    jobid: 45
+    wildcards: q=activity.total.11.93418612
+
+Submitted job 45 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:33 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.96912238_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.11.96912238_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.96912238_annovar_input_fixRef.txt
+    jobid: 73
+    wildcards: q=bmd.11.96912238
+
+Submitted job 73 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:35 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.12.83517483_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/gastroc.12.83517483_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.12.83517483_annovar_input_fixRef.txt
+    jobid: 87
+    wildcards: q=gastroc.12.83517483
+
+Submitted job 87 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:36 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.18123198_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/soleus.6.18123198_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.18123198_annovar_input_fixRef.txt
+    jobid: 101
+    wildcards: q=soleus.6.18123198
+
+Submitted job 101 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:38 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.40708978_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.5.40708978_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.40708978_annovar_input_fixRef.txt
+    jobid: 115
+    wildcards: q=tibia.5.40708978
+
+Submitted job 115 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:39 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.total.11.95651415_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_annovar_input_fixRef.txt
+    jobid: 46
+    wildcards: q=activity.total.11.95651415
+
+Submitted job 46 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:41 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.15.86382123_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.15.86382123_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.15.86382123_annovar_input_fixRef.txt
+    jobid: 74
+    wildcards: q=bmd.15.86382123
+
+Submitted job 74 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:43 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.2.155856984_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/gastroc.2.155856984_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.2.155856984_annovar_input_fixRef.txt
+    jobid: 88
+    wildcards: q=gastroc.2.155856984
+
+Submitted job 88 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:45 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.79338858_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tail.length.8.79338858_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.79338858_annovar_input_fixRef.txt
+    jobid: 102
+    wildcards: q=tail.length.8.79338858
+
+[Thu Jan 14 11:44:45 2021]
+Finished job 83.
+4 of 103 steps (4%) done
+[Thu Jan 14 11:44:45 2021]
+Finished job 77.
+5 of 103 steps (5%) done
+[Thu Jan 14 11:44:46 2021]
+Finished job 78.
+6 of 103 steps (6%) done
+[Thu Jan 14 11:44:46 2021]
+Finished job 65.
+7 of 103 steps (7%) done
+[Thu Jan 14 11:44:46 2021]
+Finished job 79.
+8 of 103 steps (8%) done
+[Thu Jan 14 11:44:46 2021]
+Finished job 93.
+9 of 103 steps (9%) done
+Submitted job 102 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:46 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.145481081_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.6.145481081_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.145481081_annovar_input_fixRef.txt
+    jobid: 116
+    wildcards: q=tibia.6.145481081
+
+[Thu Jan 14 11:44:47 2021]
+Finished job 94.
+10 of 103 steps (10%) done
+[Thu Jan 14 11:44:48 2021]
+Finished job 82.
+11 of 103 steps (11%) done
+[Thu Jan 14 11:44:48 2021]
+Finished job 84.
+12 of 103 steps (12%) done
+Submitted job 116 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:48 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.middle.11.93418604_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_annovar_input_fixRef.txt
+    jobid: 33
+    wildcards: q=activity.middle.11.93418604
+
+Submitted job 33 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:49 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.18.38659321_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.18.38659321_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.18.38659321_annovar_input_fixRef.txt
+    jobid: 75
+    wildcards: q=bmd.18.38659321
+
+Submitted job 75 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:51 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/glucose.1.152192170_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/glucose.1.152192170_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/glucose.1.152192170_annovar_input_fixRef.txt
+    jobid: 89
+    wildcards: q=glucose.1.152192170
+
+Submitted job 89 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:53 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.80905518_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tail.length.8.80905518_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.80905518_annovar_input_fixRef.txt
+    jobid: 103
+    wildcards: q=tail.length.8.80905518
+
+Submitted job 103 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:54 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147027848_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.6.147027848_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147027848_annovar_input_fixRef.txt
+    jobid: 117
+    wildcards: q=tibia.6.147027848
+
+Submitted job 117 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:56 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.middle.11.94054029_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_annovar_input_fixRef.txt
+    jobid: 34
+    wildcards: q=activity.middle.11.94054029
+
+Submitted job 34 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:58 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/habit.ratio.18.25412656_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/habit.ratio.18.25412656_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/habit.ratio.18.25412656_annovar_input_fixRef.txt
+    jobid: 90
+    wildcards: q=habit.ratio.18.25412656
+
+Submitted job 90 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:44:59 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.2.80039850_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_annovar_input_fixRef.txt
+    jobid: 7
+    wildcards: q=EDL.2.80039850
+
+[Thu Jan 14 11:45:01 2021]
+Finished job 64.
+13 of 103 steps (13%) done
+[Thu Jan 14 11:45:01 2021]
+Finished job 23.
+14 of 103 steps (14%) done
+[Thu Jan 14 11:45:01 2021]
+Finished job 24.
+15 of 103 steps (15%) done
+Submitted job 7 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:01 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.5954638_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.total.13.5954638_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.5954638_annovar_input_fixRef.txt
+    jobid: 49
+    wildcards: q=activity.total.13.5954638
+
+[Thu Jan 14 11:45:02 2021]
+Finished job 95.
+16 of 103 steps (16%) done
+Submitted job 49 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:03 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.148328439_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.6.148328439_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.148328439_annovar_input_fixRef.txt
+    jobid: 119
+    wildcards: q=tibia.6.148328439
+
+[Thu Jan 14 11:45:03 2021]
+Finished job 96.
+17 of 103 steps (17%) done
+Submitted job 119 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:04 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.2.83000091_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_annovar_input_fixRef.txt
+    jobid: 8
+    wildcards: q=EDL.2.83000091
+
+Submitted job 8 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:06 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.80408302_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.9.80408302_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.80408302_annovar_input_fixRef.txt
+    jobid: 120
+    wildcards: q=tibia.9.80408302
+
+Submitted job 120 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:08 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.84134413_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.2.84134413_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.84134413_annovar_input_fixRef.txt
+    jobid: 9
+    wildcards: q=EDL.2.84134413
+
+Submitted job 9 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:10 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8144012_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.total.13.8144012_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8144012_annovar_input_fixRef.txt
+    jobid: 51
+    wildcards: q=activity.total.13.8144012
+
+Submitted job 51 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:11 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.81411377_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.9.81411377_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.81411377_annovar_input_fixRef.txt
+    jobid: 121
+    wildcards: q=tibia.9.81411377
+
+Submitted job 121 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:13 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.83150389_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.9.83150389_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.83150389_annovar_input_fixRef.txt
+    jobid: 122
+    wildcards: q=tibia.9.83150389
+
+Submitted job 122 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:14 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.85453160_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.2.85453160_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.85453160_annovar_input_fixRef.txt
+    jobid: 10
+    wildcards: q=EDL.2.85453160
+
+[Thu Jan 14 11:45:15 2021]
+Finished job 45.
+18 of 103 steps (17%) done
+Submitted job 10 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:15 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8800578_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.total.13.8800578_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8800578_annovar_input_fixRef.txt
+    jobid: 52
+    wildcards: q=activity.total.13.8800578
+
+[Thu Jan 14 11:45:16 2021]
+Finished job 38.
+19 of 103 steps (18%) done
+[Thu Jan 14 11:45:16 2021]
+Finished job 92.
+20 of 103 steps (19%) done
+[Thu Jan 14 11:45:16 2021]
+Finished job 37.
+21 of 103 steps (20%) done
+[Thu Jan 14 11:45:16 2021]
+Finished job 107.
+22 of 103 steps (21%) done
+[Thu Jan 14 11:45:16 2021]
+Finished job 80.
+23 of 103 steps (22%) done
+[Thu Jan 14 11:45:16 2021]
+Finished job 108.
+24 of 103 steps (23%) done
+[Thu Jan 14 11:45:17 2021]
+Finished job 66.
+25 of 103 steps (24%) done
+Submitted job 52 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:17 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.86662262_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.2.86662262_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.86662262_annovar_input_fixRef.txt
+    jobid: 11
+    wildcards: q=EDL.2.86662262
+
+[Thu Jan 14 11:45:17 2021]
+Finished job 67.
+26 of 103 steps (25%) done
+[Thu Jan 14 11:45:17 2021]
+Finished job 109.
+27 of 103 steps (26%) done
+[Thu Jan 14 11:45:17 2021]
+Finished job 68.
+28 of 103 steps (27%) done
+[Thu Jan 14 11:45:17 2021]
+Finished job 110.
+29 of 103 steps (28%) done
+[Thu Jan 14 11:45:17 2021]
+Finished job 27.
+30 of 103 steps (29%) done
+[Thu Jan 14 11:45:17 2021]
+Finished job 111.
+31 of 103 steps (30%) done
+[Thu Jan 14 11:45:18 2021]
+Finished job 112.
+32 of 103 steps (31%) done
+[Thu Jan 14 11:45:18 2021]
+Finished job 99.
+33 of 103 steps (32%) done
+[Thu Jan 14 11:45:18 2021]
+Finished job 113.
+34 of 103 steps (33%) done
+Submitted job 11 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:19 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.2.89914086_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.total.2.89914086_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.2.89914086_annovar_input_fixRef.txt
+    jobid: 53
+    wildcards: q=activity.total.2.89914086
+
+[Thu Jan 14 11:45:19 2021]
+Finished job 46.
+35 of 103 steps (34%) done
+Submitted job 53 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:20 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.85054834_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/tibia.9.85054834_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.85054834_annovar_input_fixRef.txt
+    jobid: 123
+    wildcards: q=tibia.9.85054834
+
+Submitted job 123 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:22 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.9.81882866_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity.total.9.81882866_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.9.81882866_annovar_input_fixRef.txt
+    jobid: 54
+    wildcards: q=activity.total.9.81882866
+
+Submitted job 54 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:24 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.12.83323871_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.bmi.tibia.12.83323871_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.12.83323871_annovar_input_fixRef.txt
+    jobid: 124
+    wildcards: q=weight.bmi.tibia.12.83323871
+
+Submitted job 124 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:26 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.10150339_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity30.13.10150339_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.10150339_annovar_input_fixRef.txt
+    jobid: 55
+    wildcards: q=activity30.13.10150339
+
+Submitted job 55 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:27 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.bmi.tibia.13.5655594_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_annovar_input_fixRef.txt
+    jobid: 125
+    wildcards: q=weight.bmi.tibia.13.5655594
+
+Submitted job 125 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:28 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.6038915_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity30.13.6038915_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.6038915_annovar_input_fixRef.txt
+    jobid: 56
+    wildcards: q=activity30.13.6038915
+
+Submitted job 56 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:30 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.88973232_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/TA.11.88973232_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.88973232_annovar_input_fixRef.txt
+    jobid: 14
+    wildcards: q=TA.11.88973232
+
+[Thu Jan 14 11:45:30 2021]
+Finished job 33.
+36 of 103 steps (35%) done
+[Thu Jan 14 11:45:31 2021]
+Finished job 29.
+37 of 103 steps (36%) done
+[Thu Jan 14 11:45:31 2021]
+Finished job 71.
+38 of 103 steps (37%) done
+[Thu Jan 14 11:45:31 2021]
+Finished job 85.
+39 of 103 steps (38%) done
+[Thu Jan 14 11:45:31 2021]
+Finished job 26.
+40 of 103 steps (39%) done
+[Thu Jan 14 11:45:31 2021]
+Finished job 81.
+41 of 103 steps (40%) done
+[Thu Jan 14 11:45:32 2021]
+Finished job 40.
+42 of 103 steps (41%) done
+Submitted job 14 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:32 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.8924722_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.bmi.tibia.13.8924722_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.8924722_annovar_input_fixRef.txt
+    jobid: 126
+    wildcards: q=weight.bmi.tibia.13.8924722
+
+Submitted job 126 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:33 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.113025220_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.13.113025220_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.113025220_annovar_input_fixRef.txt
+    jobid: 2
+    wildcards: q=EDL.13.113025220
+
+[Thu Jan 14 11:45:33 2021]
+Finished job 34.
+43 of 103 steps (42%) done
+[Thu Jan 14 11:45:34 2021]
+Finished job 8.
+44 of 103 steps (43%) done
+Submitted job 2 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:35 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.7101524_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity30.13.7101524_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.7101524_annovar_input_fixRef.txt
+    jobid: 57
+    wildcards: q=activity30.13.7101524
+
+Submitted job 57 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:36 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34013675_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.bmi.tibia.17.34013675_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34013675_annovar_input_fixRef.txt
+    jobid: 127
+    wildcards: q=weight.bmi.tibia.17.34013675
+
+Submitted job 127 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:37 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.12.83885241_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.12.83885241_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.12.83885241_annovar_input_fixRef.txt
+    jobid: 1
+    wildcards: q=EDL.12.83885241
+
+Submitted job 1 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:39 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.8139647_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity30.13.8139647_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.8139647_annovar_input_fixRef.txt
+    jobid: 58
+    wildcards: q=activity30.13.8139647
+
+Submitted job 58 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:40 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34822977_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.bmi.tibia.17.34822977_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34822977_annovar_input_fixRef.txt
+    jobid: 128
+    wildcards: q=weight.bmi.tibia.17.34822977
+
+Submitted job 128 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:42 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.114188942_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.13.114188942_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.114188942_annovar_input_fixRef.txt
+    jobid: 3
+    wildcards: q=EDL.13.114188942
+
+Submitted job 3 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:43 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity5.13.8155366_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/activity5.13.8155366_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity5.13.8155366_annovar_input_fixRef.txt
+    jobid: 59
+    wildcards: q=activity5.13.8155366
+
+[Thu Jan 14 11:45:45 2021]
+Finished job 7.
+45 of 103 steps (44%) done
+Submitted job 59 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:45 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.bmi.tibia.2.153707637_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_annovar_input_fixRef.txt
+    jobid: 129
+    wildcards: q=weight.bmi.tibia.2.153707637
+
+[Thu Jan 14 11:45:46 2021]
+Finished job 69.
+46 of 103 steps (45%) done
+[Thu Jan 14 11:45:46 2021]
+Finished job 97.
+47 of 103 steps (46%) done
+[Thu Jan 14 11:45:46 2021]
+Finished job 70.
+48 of 103 steps (47%) done
+Submitted job 129 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:46 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.155819633_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/TA.2.155819633_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.155819633_annovar_input_fixRef.txt
+    jobid: 18
+    wildcards: q=TA.2.155819633
+
+[Thu Jan 14 11:45:47 2021]
+Finished job 73.
+49 of 103 steps (48%) done
+Submitted job 18 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:48 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.95673447_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/basal.activity.11.95673447_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.95673447_annovar_input_fixRef.txt
+    jobid: 60
+    wildcards: q=basal.activity.11.95673447
+
+[Thu Jan 14 11:45:49 2021]
+Finished job 125.
+50 of 103 steps (49%) done
+Submitted job 60 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:50 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.13.9217096_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_annovar_input_fixRef.txt
+    jobid: 130
+    wildcards: q=weight.13.9217096
+
+Submitted job 130 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:52 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.96816215_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/basal.activity.11.96816215_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.96816215_annovar_input_fixRef.txt
+    jobid: 61
+    wildcards: q=basal.activity.11.96816215
+
+Submitted job 61 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:53 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34013000_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/weight.17.34013000_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34013000_annovar_input_fixRef.txt
+    jobid: 131
+    wildcards: q=weight.17.34013000
+
+Submitted job 131 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:55 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/EDL.2.78722881_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_annovar_input_fixRef.txt
+    jobid: 6
+    wildcards: q=EDL.2.78722881
+
+Submitted job 6 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+
+[Thu Jan 14 11:45:56 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.10150339_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/basal.activity.13.10150339_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.10150339_annovar_input_fixRef.txt
+    jobid: 62
+    wildcards: q=basal.activity.13.10150339
+
+Submitted job 62 with external jobid 'removed environment variable LD_GOLD from submit environment - it is considered a security issue'.
+[Thu Jan 14 11:46:00 2021]
+Finished job 102.
+51 of 103 steps (50%) done
+[Thu Jan 14 11:46:01 2021]
+Finished job 114.
+52 of 103 steps (50%) done
+[Thu Jan 14 11:46:01 2021]
+Finished job 98.
+53 of 103 steps (51%) done
+[Thu Jan 14 11:46:01 2021]
+Finished job 30.
+54 of 103 steps (52%) done
+[Thu Jan 14 11:46:01 2021]
+Finished job 72.
+55 of 103 steps (53%) done
+[Thu Jan 14 11:46:01 2021]
+Finished job 100.
+56 of 103 steps (54%) done
+[Thu Jan 14 11:46:02 2021]
+Finished job 115.
+57 of 103 steps (55%) done
+[Thu Jan 14 11:46:02 2021]
+Finished job 74.
+58 of 103 steps (56%) done
+[Thu Jan 14 11:46:02 2021]
+Finished job 75.
+59 of 103 steps (57%) done
+[Thu Jan 14 11:46:02 2021]
+Finished job 90.
+60 of 103 steps (58%) done
+[Thu Jan 14 11:46:15 2021]
+Finished job 129.
+61 of 103 steps (59%) done
+[Thu Jan 14 11:46:16 2021]
+Finished job 86.
+62 of 103 steps (60%) done
+[Thu Jan 14 11:46:16 2021]
+Finished job 87.
+63 of 103 steps (61%) done
+[Thu Jan 14 11:46:16 2021]
+Finished job 101.
+64 of 103 steps (62%) done
+[Thu Jan 14 11:46:16 2021]
+Finished job 89.
+65 of 103 steps (63%) done
+[Thu Jan 14 11:46:16 2021]
+Finished job 103.
+66 of 103 steps (64%) done
+[Thu Jan 14 11:46:16 2021]
+Finished job 120.
+67 of 103 steps (65%) done
+[Thu Jan 14 11:46:29 2021]
+Finished job 49.
+68 of 103 steps (66%) done
+[Thu Jan 14 11:46:29 2021]
+Finished job 119.
+69 of 103 steps (67%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 88.
+70 of 103 steps (68%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 116.
+71 of 103 steps (69%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 117.
+72 of 103 steps (70%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 51.
+73 of 103 steps (71%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 121.
+74 of 103 steps (72%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 122.
+75 of 103 steps (73%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 123.
+76 of 103 steps (74%) done
+[Thu Jan 14 11:46:32 2021]
+Finished job 54.
+77 of 103 steps (75%) done
+[Thu Jan 14 11:46:34 2021]
+Finished job 130.
+78 of 103 steps (76%) done
+[Thu Jan 14 11:46:35 2021]
+Finished job 6.
+79 of 103 steps (77%) done
+[Thu Jan 14 11:46:45 2021]
+Finished job 14.
+80 of 103 steps (78%) done
+[Thu Jan 14 11:46:45 2021]
+Finished job 52.
+81 of 103 steps (79%) done
+[Thu Jan 14 11:46:45 2021]
+Finished job 11.
+82 of 103 steps (80%) done
+[Thu Jan 14 11:46:45 2021]
+Finished job 9.
+83 of 103 steps (81%) done
+[Thu Jan 14 11:46:45 2021]
+Finished job 124.
+84 of 103 steps (82%) done
+[Thu Jan 14 11:46:46 2021]
+Finished job 55.
+85 of 103 steps (83%) done
+[Thu Jan 14 11:46:46 2021]
+Finished job 127.
+86 of 103 steps (83%) done
+[Thu Jan 14 11:46:47 2021]
+Finished job 1.
+87 of 103 steps (84%) done
+[Thu Jan 14 11:46:47 2021]
+Finished job 128.
+88 of 103 steps (85%) done
+[Thu Jan 14 11:46:57 2021]
+Finished job 18.
+89 of 103 steps (86%) done
+[Thu Jan 14 11:46:57 2021]
+Finished job 56.
+90 of 103 steps (87%) done
+[Thu Jan 14 11:46:57 2021]
+Finished job 2.
+91 of 103 steps (88%) done
+[Thu Jan 14 11:46:57 2021]
+Finished job 57.
+92 of 103 steps (89%) done
+[Thu Jan 14 11:46:57 2021]
+Finished job 58.
+93 of 103 steps (90%) done
+[Thu Jan 14 11:46:57 2021]
+Finished job 3.
+94 of 103 steps (91%) done
+[Thu Jan 14 11:46:58 2021]
+Finished job 60.
+95 of 103 steps (92%) done
+[Thu Jan 14 11:47:08 2021]
+Finished job 59.
+96 of 103 steps (93%) done
+[Thu Jan 14 11:47:08 2021]
+Finished job 126.
+97 of 103 steps (94%) done
+[Thu Jan 14 11:47:08 2021]
+Finished job 10.
+98 of 103 steps (95%) done
+[Thu Jan 14 11:47:08 2021]
+Finished job 53.
+99 of 103 steps (96%) done
+[Thu Jan 14 11:47:18 2021]
+Finished job 61.
+100 of 103 steps (97%) done
+[Thu Jan 14 11:47:18 2021]
+Finished job 131.
+101 of 103 steps (98%) done
+[Thu Jan 14 11:47:18 2021]
+Finished job 62.
+102 of 103 steps (99%) done
+Select jobs to execute...
+
+[Thu Jan 14 11:47:18 2021]
+localrule all:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.12.83885241_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.113025220_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.114188942_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.155780222_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.77669072_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.84134413_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.85453160_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.86662262_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.18398304_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.79522084_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.88973232_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.12.83514944_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.13.9090078_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.154645131_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.155819633_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.93418612_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.94772022_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.7632884_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.8153523_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.9154368_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.153696216_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.89917236_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.95636638_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.96653605_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.10150339_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.6323352_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.7101524_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.8209788_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.95651415_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.96852500_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.10150339_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.7101524_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8209788_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8800578_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.152116228_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.153760436_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.89917236_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.9.81879809_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.96653605_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.10144490_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.5954638_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.7101524_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8144012_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8800578_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.2.89914086_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.9.81882866_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.10150339_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.6038915_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.7101524_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.8139647_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity5.13.8155366_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.95673447_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.96816215_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.10150339_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.6154389_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.7101524_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.94758993_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.95761488_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.96913720_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.100053320_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.93469819_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.94772022_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.95761488_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.96912238_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.15.86382123_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.18.38659321_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.23814155_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.24922475_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.27366822_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.95582360_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.96918212_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.18.38930957_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.79954876_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.88973192_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.12.83517483_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.2.155856984_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/glucose.1.152192170_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/habit.ratio.18.25412656_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.13.116222549_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.2.155812908_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.4.85394581_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.9.87855594_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.113404971_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.114802392_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.9242435_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.2.155505679_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.3.15783853_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.15600158_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.18123198_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.79338858_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.80905518_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.81878779_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.95761488_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.96952835_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.83514944_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91175287_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91722613_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.11500538_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.12517342_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.39698535_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.40708978_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.145481081_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147027848_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147721449_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.148328439_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.80408302_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.81411377_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.83150389_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.85054834_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.12.83323871_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.8924722_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34013675_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34822977_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34013000_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34900243_annovar_input_fixRef.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.37094289_annovar_input_fixRef.txt
+    jobid: 0
+
+[Thu Jan 14 11:47:18 2021]
+Finished job 0.
+103 of 103 steps (100%) done
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2021-01-14T114320.324689.snakemake.log

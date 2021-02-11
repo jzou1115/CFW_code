@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	annovar_input2
+	1
+Select jobs to execute...
+
+[Thu Jan 14 11:11:06 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.5.21721308_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_annovar_input_fixRef.txt
+    jobid: 0
+    wildcards: q=bmd.5.21721308
+
+[Thu Jan 14 11:11:53 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2021-01-14T111059.122702.snakemake.log

@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	77	annovar_input
+	1	evaluateConfidenceIntervals
+	34	genomeScans
+	77	locus_zoom_input
+	1	makeKinship
+	1	mixedModelHeritabilities
+	77	run_susier
+	77	simulateConfidenceIntervals
+	77	susier_input
+	423
+
+[Sat Sep  5 16:08:51 2020]
+rule makeKinship:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr1.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr2.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr3.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr4.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr5.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr6.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr7.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr8.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr9.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr10.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr11.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr12.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr13.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr14.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr15.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr16.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr17.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr18.oxinfo90.Rdata, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr19.oxinfo90.Rdata
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/kinship_matrices.RData
+    jobid: 460
+
+[Sat Sep  5 16:09:25 2020]
+Error in rule makeKinship:
+    jobid: 460
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/kinship_matrices.RData
+
+RuleException:
+CalledProcessError in line 81 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Command 'set -euo pipefail;  Rscript --vanilla /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/scripts/tmpid02ty4n.makeKinshipRData.R' returned non-zero exit status 1.
+  File "/u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile", line 81, in __rule_makeKinship
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2020-09-05T160848.465776.snakemake.log

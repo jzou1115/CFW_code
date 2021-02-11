@@ -1,0 +1,533 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	all
+	32	annovar_input
+	32	run_susier
+	31	susier_input
+	96
+
+[Sun Sep  6 12:57:10 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr15.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/tibia.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr15.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.15.11690201_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.15.11690201_pruned_sorted.ld
+    jobid: 230
+    wildcards: q=tibia.15.11690201
+
+Submitted job 230 with external jobid 'Your job 4288718 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:11 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr3.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/startle.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr3.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/startle.3.155264828_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/startle.3.155264828_pruned_sorted.ld
+    jobid: 226
+    wildcards: q=startle.3.155264828
+
+Submitted job 226 with external jobid 'Your job 4288719 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:12 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr6.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/tibia.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr6.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.ld
+    jobid: 232
+    wildcards: q=tibia.6.147003241
+
+Submitted job 232 with external jobid 'Your job 4288720 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:13 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr11.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.a.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr11.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.a.11.96587236_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.a.11.96587236_pruned_sorted.ld
+    jobid: 211
+    wildcards: q=bmd.a.11.96587236
+
+Submitted job 211 with external jobid 'Your job 4288721 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:13 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr18.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/habit.ratio.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr18.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/habit.ratio.18.11443272_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/habit.ratio.18.11443272_pruned_sorted.ld
+    jobid: 222
+    wildcards: q=habit.ratio.18.11443272
+
+Submitted job 222 with external jobid 'Your job 4288722 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:14 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr2.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/glucose.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr2.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/glucose.2.56207051_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/glucose.2.56207051_pruned_sorted.ld
+    jobid: 221
+    wildcards: q=glucose.2.56207051
+
+Submitted job 221 with external jobid 'Your job 4288723 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:15 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr3.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/pp6.ppi.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr3.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/pp6.ppi.3.140609693_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/pp6.ppi.3.140609693_pruned_sorted.ld
+    jobid: 223
+    wildcards: q=pp6.ppi.3.140609693
+
+Submitted job 223 with external jobid 'Your job 4288724 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:16 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr11.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr11.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.11.94744618_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.11.94744618_pruned_sorted.ld
+    jobid: 212
+    wildcards: q=bmd.11.94744618
+
+Submitted job 212 with external jobid 'Your job 4288725 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:17 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr4.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/tail.length.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr4.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tail.length.4.54882089_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tail.length.4.54882089_pruned_sorted.ld
+    jobid: 227
+    wildcards: q=tail.length.4.54882089
+
+Submitted job 227 with external jobid 'Your job 4288726 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:18 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr17.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/tibia.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr17.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.17.63599648_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.17.63599648_pruned_sorted.ld
+    jobid: 231
+    wildcards: q=tibia.17.63599648
+
+Submitted job 231 with external jobid 'Your job 4288727 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:20 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr11.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr11.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.11.95761488_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.11.95761488_pruned_sorted.ld
+    jobid: 213
+    wildcards: q=bmd.11.95761488
+
+Submitted job 213 with external jobid 'Your job 4288728 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:21 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr13.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/EDL.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr13.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.13.8150385_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.13.8150385_pruned_sorted.ld
+    jobid: 202
+    wildcards: q=EDL.13.8150385
+
+Submitted job 202 with external jobid 'Your job 4288729 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:22 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr12.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/tibia.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr12.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.12.82921877_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.12.82921877_pruned_sorted.ld
+    jobid: 228
+    wildcards: q=tibia.12.82921877
+
+Submitted job 228 with external jobid 'Your job 4288730 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:23 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr5.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr5.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.21605895_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.21605895_pruned_sorted.ld
+    jobid: 215
+    wildcards: q=bmd.5.21605895
+
+Submitted job 215 with external jobid 'Your job 4288731 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:24 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr11.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr11.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.11.96791403_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.11.96791403_pruned_sorted.ld
+    jobid: 214
+    wildcards: q=bmd.11.96791403
+
+Submitted job 214 with external jobid 'Your job 4288732 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:25 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr8.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/fc.cue.baseline.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr8.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/fc.cue.baseline.8.29372129_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/fc.cue.baseline.8.29372129_pruned_sorted.ld
+    jobid: 218
+    wildcards: q=fc.cue.baseline.8.29372129
+
+Submitted job 218 with external jobid 'Your job 4288733 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:26 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/activity.middle.11.92774033_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/activity.middle.11.92774033_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/activity.middle.11.92774033.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/activity.middle.11.92774033.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/activity.middle.11.92774033_snps.txt
+    jobid: 45
+    wildcards: q=activity.middle.11.92774033
+
+Submitted job 45 with external jobid 'Your job 4288734 ("run_susier") has been submitted'.
+
+[Sun Sep  6 12:57:27 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr2.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/EDL.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr2.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.2.156430745_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.2.156430745_pruned_sorted.ld
+    jobid: 204
+    wildcards: q=EDL.2.156430745
+
+Submitted job 204 with external jobid 'Your job 4288736 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:28 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr5.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr5.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.24099422_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.24099422_pruned_sorted.ld
+    jobid: 217
+    wildcards: q=bmd.5.24099422
+
+Submitted job 217 with external jobid 'Your job 4288737 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:30 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr5.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr5.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.22911999_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.22911999_pruned_sorted.ld
+    jobid: 216
+    wildcards: q=bmd.5.22911999
+
+Submitted job 216 with external jobid 'Your job 4288738 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:31 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr2.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/EDL.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr2.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.2.155500046_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.2.155500046_pruned_sorted.ld
+    jobid: 203
+    wildcards: q=EDL.2.155500046
+
+Submitted job 203 with external jobid 'Your job 4288739 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:31 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr13.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/soleus.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr13.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/soleus.13.112998590_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/soleus.13.112998590_pruned_sorted.ld
+    jobid: 224
+    wildcards: q=soleus.13.112998590
+
+Submitted job 224 with external jobid 'Your job 4288740 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:33 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr1.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/activity.total.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr1.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/activity.total.1.69279168_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/activity.total.1.69279168_pruned_sorted.ld
+    jobid: 209
+    wildcards: q=activity.total.1.69279168
+
+Submitted job 209 with external jobid 'Your job 4288741 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:33 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr9.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/weight.bmi.tibia.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr9.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/weight.bmi.tibia.9.47814385_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/weight.bmi.tibia.9.47814385_pruned_sorted.ld
+    jobid: 233
+    wildcards: q=weight.bmi.tibia.9.47814385
+
+Submitted job 233 with external jobid 'Your job 4288742 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:35 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr1.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/activity.middle.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr1.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/activity.middle.1.69279168_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/activity.middle.1.69279168_pruned_sorted.ld
+    jobid: 208
+    wildcards: q=activity.middle.1.69279168
+
+Submitted job 208 with external jobid 'Your job 4288743 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:36 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr13.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/soleus.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr13.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/soleus.13.114209942_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/soleus.13.114209942_pruned_sorted.ld
+    jobid: 225
+    wildcards: q=soleus.13.114209942
+
+Submitted job 225 with external jobid 'Your job 4288744 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:36 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr12.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/tibia.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr12.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.12.83641175_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.12.83641175_pruned_sorted.ld
+    jobid: 229
+    wildcards: q=tibia.12.83641175
+
+Submitted job 229 with external jobid 'Your job 4288745 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:38 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr13.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/TA.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr13.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/TA.13.8133170_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/TA.13.8133170_pruned_sorted.ld
+    jobid: 205
+    wildcards: q=TA.13.8133170
+
+Submitted job 205 with external jobid 'Your job 4288746 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:39 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr15.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/TA.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr15.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/TA.15.90589642_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/TA.15.90589642_pruned_sorted.ld
+    jobid: 206
+    wildcards: q=TA.15.90589642
+
+Submitted job 206 with external jobid 'Your job 4288747 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:40 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr2.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/fc.uncond.freeze.corr.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr2.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/fc.uncond.freeze.corr.2.35366180_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/fc.uncond.freeze.corr.2.35366180_pruned_sorted.ld
+    jobid: 219
+    wildcards: q=fc.uncond.freeze.corr.2.35366180
+
+Submitted job 219 with external jobid 'Your job 4288748 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:41 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr2.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/glucose.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr2.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/glucose.2.54967720_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/glucose.2.54967720_pruned_sorted.ld
+    jobid: 220
+    wildcards: q=glucose.2.54967720
+
+Submitted job 220 with external jobid 'Your job 4288749 ("susier_input") has been submitted'.
+
+[Sun Sep  6 12:57:42 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr11.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/bmd.a.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr11.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.a.11.95549852_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.a.11.95549852_pruned_sorted.ld
+    jobid: 210
+    wildcards: q=bmd.a.11.95549852
+
+Submitted job 210 with external jobid 'Your job 4288750 ("susier_input") has been submitted'.
+[Sun Sep  6 12:59:24 2020]
+Finished job 230.
+1 of 96 steps (1%) done
+
+[Sun Sep  6 12:59:24 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.15.11690201_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.15.11690201_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/tibia.15.11690201.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/tibia.15.11690201.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/tibia.15.11690201_snps.txt
+    jobid: 68
+    wildcards: q=tibia.15.11690201
+
+Submitted job 68 with external jobid 'Your job 4288752 ("run_susier") has been submitted'.
+[Sun Sep  6 12:59:26 2020]
+Finished job 218.
+2 of 96 steps (2%) done
+
+[Sun Sep  6 12:59:26 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/fc.cue.baseline.8.29372129_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/fc.cue.baseline.8.29372129_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/fc.cue.baseline.8.29372129.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/fc.cue.baseline.8.29372129.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/fc.cue.baseline.8.29372129_snps.txt
+    jobid: 56
+    wildcards: q=fc.cue.baseline.8.29372129
+
+Submitted job 56 with external jobid 'Your job 4288753 ("run_susier") has been submitted'.
+[Sun Sep  6 13:00:16 2020]
+Finished job 216.
+3 of 96 steps (3%) done
+
+[Sun Sep  6 13:00:16 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.22911999_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.22911999_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.22911999.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.22911999.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.22911999_snps.txt
+    jobid: 54
+    wildcards: q=bmd.5.22911999
+
+[Sun Sep  6 13:00:16 2020]
+Finished job 222.
+4 of 96 steps (4%) done
+Submitted job 54 with external jobid 'Your job 4288756 ("run_susier") has been submitted'.
+[Sun Sep  6 13:00:17 2020]
+Finished job 202.
+5 of 96 steps (5%) done
+
+[Sun Sep  6 13:00:17 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/habit.ratio.18.11443272_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/habit.ratio.18.11443272_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/habit.ratio.18.11443272.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/habit.ratio.18.11443272.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/habit.ratio.18.11443272_snps.txt
+    jobid: 60
+    wildcards: q=habit.ratio.18.11443272
+
+[Sun Sep  6 13:00:17 2020]
+Finished job 215.
+6 of 96 steps (6%) done
+Submitted job 60 with external jobid 'Your job 4288757 ("run_susier") has been submitted'.
+
+[Sun Sep  6 13:00:19 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.13.8150385_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/EDL.13.8150385_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/EDL.13.8150385.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/EDL.13.8150385.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/EDL.13.8150385_snps.txt
+    jobid: 40
+    wildcards: q=EDL.13.8150385
+
+Submitted job 40 with external jobid 'Your job 4288758 ("run_susier") has been submitted'.
+
+[Sun Sep  6 13:00:20 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.21605895_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.21605895_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.21605895.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.21605895.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.21605895_snps.txt
+    jobid: 53
+    wildcards: q=bmd.5.21605895
+
+Submitted job 53 with external jobid 'Your job 4288759 ("run_susier") has been submitted'.
+[Sun Sep  6 13:00:55 2020]
+Finished job 217.
+7 of 96 steps (7%) done
+
+[Sun Sep  6 13:00:55 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.24099422_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/bmd.5.24099422_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.24099422.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.24099422.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/bmd.5.24099422_snps.txt
+    jobid: 55
+    wildcards: q=bmd.5.24099422
+
+[Sun Sep  6 13:00:55 2020]
+Finished job 226.
+8 of 96 steps (8%) done
+Submitted job 55 with external jobid 'Your job 4288760 ("run_susier") has been submitted'.
+
+[Sun Sep  6 13:00:57 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/startle.3.155264828_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/startle.3.155264828_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/startle.3.155264828.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/startle.3.155264828.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/startle.3.155264828_snps.txt
+    jobid: 64
+    wildcards: q=startle.3.155264828
+
+Submitted job 64 with external jobid 'Your job 4288761 ("run_susier") has been submitted'.
+[Sun Sep  6 13:01:09 2020]
+Finished job 223.
+9 of 96 steps (9%) done
+
+[Sun Sep  6 13:01:09 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/pp6.ppi.3.140609693_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/pp6.ppi.3.140609693_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/pp6.ppi.3.140609693.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/pp6.ppi.3.140609693.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/pp6.ppi.3.140609693_snps.txt
+    jobid: 61
+    wildcards: q=pp6.ppi.3.140609693
+
+Submitted job 61 with external jobid 'Your job 4288762 ("run_susier") has been submitted'.
+[Sun Sep  6 13:01:22 2020]
+Finished job 227.
+10 of 96 steps (10%) done
+
+[Sun Sep  6 13:01:22 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tail.length.4.54882089_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tail.length.4.54882089_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/tail.length.4.54882089.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/tail.length.4.54882089.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/tail.length.4.54882089_snps.txt
+    jobid: 65
+    wildcards: q=tail.length.4.54882089
+
+Submitted job 65 with external jobid 'Your job 4288763 ("run_susier") has been submitted'.
+[Sun Sep  6 13:01:36 2020]
+Finished job 233.
+11 of 96 steps (11%) done
+
+[Sun Sep  6 13:01:36 2020]
+rule run_susier:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/weight.bmi.tibia.9.47814385_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/weight.bmi.tibia.9.47814385_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/weight.bmi.tibia.9.47814385.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/weight.bmi.tibia.9.47814385.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/output/weight.bmi.tibia.9.47814385_snps.txt
+    jobid: 71
+    wildcards: q=weight.bmi.tibia.9.47814385
+
+Submitted job 71 with external jobid 'Your job 4288765 ("run_susier") has been submitted'.
+[Sun Sep  6 13:01:48 2020]
+Error in rule susier_input:
+    jobid: 232
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.ld
+    cluster_jobid: Your job 4288720 ("susier_input") has been submitted
+
+Error executing rule susier_input on cluster (jobid: 232, external: Your job 4288720 ("susier_input") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.c3l4asg_/snakejob.susier_input.232.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Sep  6 13:01:50 2020]
+Finished job 224.
+12 of 96 steps (12%) done
+[Sun Sep  6 13:02:05 2020]
+Finished job 229.
+13 of 96 steps (14%) done
+[Sun Sep  6 13:02:16 2020]
+Finished job 212.
+14 of 96 steps (15%) done
+[Sun Sep  6 13:02:17 2020]
+Finished job 228.
+15 of 96 steps (16%) done
+[Sun Sep  6 13:02:17 2020]
+Finished job 204.
+16 of 96 steps (17%) done
+[Sun Sep  6 13:02:17 2020]
+Finished job 209.
+17 of 96 steps (18%) done
+[Sun Sep  6 13:02:17 2020]
+Finished job 208.
+18 of 96 steps (19%) done
+[Sun Sep  6 13:02:30 2020]
+Finished job 45.
+19 of 96 steps (20%) done
+[Sun Sep  6 13:02:41 2020]
+Finished job 211.
+20 of 96 steps (21%) done
+[Sun Sep  6 13:02:41 2020]
+Finished job 231.
+21 of 96 steps (22%) done
+[Sun Sep  6 13:02:41 2020]
+Finished job 213.
+22 of 96 steps (23%) done
+[Sun Sep  6 13:02:41 2020]
+Finished job 205.
+23 of 96 steps (24%) done
+[Sun Sep  6 13:02:54 2020]
+Finished job 68.
+24 of 96 steps (25%) done
+[Sun Sep  6 13:02:54 2020]
+Finished job 214.
+25 of 96 steps (26%) done
+[Sun Sep  6 13:03:27 2020]
+Finished job 221.
+26 of 96 steps (27%) done
+[Sun Sep  6 13:03:28 2020]
+Finished job 206.
+27 of 96 steps (28%) done
+[Sun Sep  6 13:03:28 2020]
+Finished job 56.
+28 of 96 steps (29%) done
+[Sun Sep  6 13:03:38 2020]
+Finished job 54.
+29 of 96 steps (30%) done
+[Sun Sep  6 13:03:38 2020]
+Finished job 203.
+30 of 96 steps (31%) done
+[Sun Sep  6 13:03:49 2020]
+Finished job 60.
+31 of 96 steps (32%) done
+[Sun Sep  6 13:04:33 2020]
+Finished job 219.
+32 of 96 steps (33%) done
+[Sun Sep  6 13:04:34 2020]
+Finished job 225.
+33 of 96 steps (34%) done
+[Sun Sep  6 13:04:35 2020]
+Finished job 40.
+34 of 96 steps (35%) done
+[Sun Sep  6 13:04:35 2020]
+Finished job 53.
+35 of 96 steps (36%) done
+[Sun Sep  6 13:05:15 2020]
+Finished job 55.
+36 of 96 steps (38%) done
+[Sun Sep  6 13:05:25 2020]
+Finished job 64.
+37 of 96 steps (39%) done
+[Sun Sep  6 13:05:55 2020]
+Finished job 61.
+38 of 96 steps (40%) done
+[Sun Sep  6 13:06:05 2020]
+Finished job 65.
+39 of 96 steps (41%) done
+[Sun Sep  6 13:06:07 2020]
+Finished job 220.
+40 of 96 steps (42%) done
+[Sun Sep  6 13:06:07 2020]
+Finished job 210.
+41 of 96 steps (43%) done
+[Sun Sep  6 13:06:37 2020]
+Finished job 71.
+42 of 96 steps (44%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2020-09-06T125708.077813.snakemake.log

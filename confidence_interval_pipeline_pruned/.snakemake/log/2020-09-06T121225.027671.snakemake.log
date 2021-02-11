@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 171 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Missing input files for rule susier_input:
+/u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/OX/TA.15.905896.ox.assoc.txt.gz

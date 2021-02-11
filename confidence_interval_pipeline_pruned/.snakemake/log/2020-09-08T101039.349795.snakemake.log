@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	32	annovar_input
+	32	locus_zoom_input
+	20	run_susier
+	1	susier_input
+	86
+
+[Tue Sep  8 10:10:43 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/genotypes/chr6.oxinfo90.txt, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/UC/tibia.uc.assoc.txt.gz, /u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr6.oxinfo90.dosages.gz
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.ld
+    jobid: 232
+    wildcards: q=tibia.6.147003241
+
+Terminating processes on user request, this might take some time.
+[Tue Sep  8 10:10:58 2020]
+Error in rule susier_input:
+    jobid: 232
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.6.147003241_pruned_sorted.ld
+
+RuleException:
+CalledProcessError in line 188 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Command 'set -euo pipefail;  /u/home/j/jzou1115/project-ernst/software/anaconda3/bin/python3.7 /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/scripts/tmprth2pb5w.susier_input.py' returned non-zero exit status 1.
+  File "/u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile", line 188, in __rule_susier_input
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2020-09-08T101039.349795.snakemake.log

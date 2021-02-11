@@ -1,0 +1,51 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	5	run_susier
+	5	susier_input
+	11
+
+[Sun Sep  6 11:27:08 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.17.63599648_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tibia.17.63599648_pruned_sorted.ld
+    jobid: 199
+    wildcards: q=tibia.17.63599648
+
+[Sun Sep  6 11:28:37 2020]
+Finished job 199.
+1 of 11 steps (9%) done
+
+[Sun Sep  6 11:28:37 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/habit.ratio.18.11443272_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/habit.ratio.18.11443272_pruned_sorted.ld
+    jobid: 190
+    wildcards: q=habit.ratio.18.11443272
+
+[Sun Sep  6 11:29:26 2020]
+Finished job 190.
+2 of 11 steps (18%) done
+
+[Sun Sep  6 11:29:26 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/TA.15.90589642_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/TA.15.90589642_pruned_sorted.ld
+    jobid: 174
+    wildcards: q=TA.15.90589642
+
+[Sun Sep  6 11:30:38 2020]
+Finished job 174.
+3 of 11 steps (27%) done
+
+[Sun Sep  6 11:30:38 2020]
+rule susier_input:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/confidence_intervals/CI_pruned.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tail.length.4.54882089_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_uc/finemapping/input/tail.length.4.54882089_pruned_sorted.ld
+    jobid: 195
+    wildcards: q=tail.length.4.54882089
+

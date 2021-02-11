@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	summarize_finemapping
+	1
+
+[Sun Oct 18 16:36:57 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.12.83885241_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.12.83885241_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.12.83885241_finemap_snps.txt
+    jobid: 0
+    wildcards: q=EDL.12.83885241
+
+[Sun Oct 18 16:42:20 2020]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2020-10-18T163654.880901.snakemake.log

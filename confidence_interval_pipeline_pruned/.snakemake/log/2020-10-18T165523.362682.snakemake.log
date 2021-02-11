@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	all
+	1	summarize_finemapping
+	2
+
+[Sun Oct 18 16:55:24 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_finemap_snps.txt
+    jobid: 1
+    wildcards: q=basal.activity.13.8209788
+
+Submitted job 1 with external jobid 'Your job 4796312 ("summarize_finemapping") has been submitted'.
+[Sun Oct 18 16:55:54 2020]
+Error in rule summarize_finemapping:
+    jobid: 1
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_finemap_snps.txt
+    cluster_jobid: Your job 4796312 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 1, external: Your job 4796312 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.9clmi182/snakejob.summarize_finemapping.1.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2020-10-18T165523.362682.snakemake.log

@@ -1,0 +1,19 @@
+outdir: "/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned"
+
+chromosomes: "data/chromosomes.txt"
+phenotypes: "data/phenotypes.txt"
+qtls: "/u/home/j/jzou1115/project-zarlab/CFW/confidence_intervals/data/qtls/qtls_decorrelated_threshold3.txt"
+kinship: "/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/genotypes/kinship_matrices.RData"
+
+qtl_ids: "data/qtls_decorrelated_info90_all.txt"
+
+
+dosages: "/u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr{chr}.oxinfo90.dosages.gz"
+annot: "/u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90/combined.chr{chr}.oxinfo90.annot"
+prune: "/u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/oxinfo90/LDprunedSNPs/combined.chr{chr}.prune.in"
+pheno: "/u/home/j/jzou1115/project-zarlab/CFW/confidence_intervals/data/phenotypes/pheno.combined.txt"
+
+pheno_all:  "/u/home/j/jzou1115/project-zarlab/CFW/confidence_intervals/data/phenotypes/pheno.combined.txt"
+zdir: "/u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019_Summary_Statistics/COMBINED/"
+ddir:  "/u/home/j/jzou1115/project-zarlab/CFW/MegaAnalysis_CFW_2019/genotypes/oxinfo90"
+study: "combined"

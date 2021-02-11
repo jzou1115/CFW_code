@@ -1,0 +1,2970 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	266	run_susier_ref
+	267
+Select jobs to execute...
+
+[Wed Jan 20 20:29:12 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.93418612_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.93418612_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.11.93418612_10_.95_snps.txt
+    jobid: 223
+    wildcards: q=activity.total.11.93418612, l=10, cov=.95
+
+[Wed Jan 20 20:29:16 2021]
+Finished job 223.
+1 of 267 steps (0.37%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:16 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8800578_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8800578_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.8800578_10_.95_snps.txt
+    jobid: 237
+    wildcards: q=activity.total.13.8800578, l=10, cov=.95
+
+[Wed Jan 20 20:29:19 2021]
+Finished job 237.
+2 of 267 steps (0.75%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:19 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.7101524_10_.95_snps.txt
+    jobid: 209
+    wildcards: q=activity.middle.13.7101524, l=10, cov=.95
+
+[Wed Jan 20 20:29:24 2021]
+Finished job 209.
+3 of 267 steps (1%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:24 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity5.13.8155366_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity5.13.8155366_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity5.13.8155366_10_.95_snps.txt
+    jobid: 251
+    wildcards: q=activity5.13.8155366, l=10, cov=.95
+
+[Wed Jan 20 20:29:27 2021]
+Finished job 251.
+4 of 267 steps (1%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:27 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.7101524_10_.95_snps.txt
+    jobid: 195
+    wildcards: q=activity.end.13.7101524, l=10, cov=.95
+
+[Wed Jan 20 20:29:31 2021]
+Finished job 195.
+5 of 267 steps (2%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:31 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.12.83517483_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.12.83517483_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/gastroc.12.83517483_10_.95_snps.txt
+    jobid: 307
+    wildcards: q=gastroc.12.83517483, l=10, cov=.95
+
+[Wed Jan 20 20:29:34 2021]
+Finished job 307.
+6 of 267 steps (2%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:34 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.9154368_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.9154368_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.13.9154368_10_.95_snps.txt
+    jobid: 181
+    wildcards: q=activity.begin.13.9154368, l=10, cov=.95
+
+[Wed Jan 20 20:29:39 2021]
+Finished job 181.
+7 of 267 steps (3%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:39 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.18123198_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.18123198_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.6.18123198_10_.95_snps.txt
+    jobid: 335
+    wildcards: q=soleus.6.18123198, l=10, cov=.95
+
+[Wed Jan 20 20:29:42 2021]
+Finished job 335.
+8 of 267 steps (3%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:42 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.40708978_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.40708978_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.5.40708978_10_.95_snps.txt
+    jobid: 363
+    wildcards: q=tibia.5.40708978, l=10, cov=.95
+
+[Wed Jan 20 20:29:45 2021]
+Finished job 363.
+9 of 267 steps (3%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:45 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.2.153707637_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.2.153707637_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.2.153707637_10_.95_snps.txt
+    jobid: 391
+    wildcards: q=weight.bmi.tibia.2.153707637, l=10, cov=.95
+
+[Wed Jan 20 20:29:49 2021]
+Finished job 391.
+10 of 267 steps (4%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:49 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.2.153707637_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.2.153707637_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.2.153707637_10_.80_snps.txt
+    jobid: 390
+    wildcards: q=weight.bmi.tibia.2.153707637, l=10, cov=.80
+
+[Wed Jan 20 20:29:54 2021]
+Finished job 390.
+11 of 267 steps (4%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:29:54 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.13.9217096_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.13.9217096_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.13.9217096_10_.80_snps.txt
+    jobid: 392
+    wildcards: q=weight.13.9217096, l=10, cov=.80
+
+[Wed Jan 20 20:30:01 2021]
+Finished job 392.
+12 of 267 steps (4%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:01 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.40708978_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.40708978_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.5.40708978_10_.80_snps.txt
+    jobid: 362
+    wildcards: q=tibia.5.40708978, l=10, cov=.80
+
+[Wed Jan 20 20:30:07 2021]
+Finished job 362.
+13 of 267 steps (5%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:07 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.8209788_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.8209788_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.8209788_10_.80_snps.txt
+    jobid: 196
+    wildcards: q=activity.end.13.8209788, l=10, cov=.80
+
+[Wed Jan 20 20:30:10 2021]
+Finished job 196.
+14 of 267 steps (5%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:10 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.18123198_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.18123198_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.6.18123198_10_.80_snps.txt
+    jobid: 334
+    wildcards: q=soleus.6.18123198, l=10, cov=.80
+
+[Wed Jan 20 20:30:15 2021]
+Finished job 334.
+15 of 267 steps (6%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:15 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.153696216_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.153696216_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.2.153696216_10_.80_snps.txt
+    jobid: 182
+    wildcards: q=activity.begin.2.153696216, l=10, cov=.80
+
+[Wed Jan 20 20:30:18 2021]
+Finished job 182.
+16 of 267 steps (6%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:18 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8209788_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8209788_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.8209788_10_.80_snps.txt
+    jobid: 210
+    wildcards: q=activity.middle.13.8209788, l=10, cov=.80
+
+[Wed Jan 20 20:30:23 2021]
+Finished job 210.
+17 of 267 steps (6%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:23 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.95651415_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.95651415_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.11.95651415_10_.80_snps.txt
+    jobid: 224
+    wildcards: q=activity.total.11.95651415, l=10, cov=.80
+
+[Wed Jan 20 20:30:29 2021]
+Finished job 224.
+18 of 267 steps (7%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:29 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.12.83517483_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.12.83517483_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/gastroc.12.83517483_10_.80_snps.txt
+    jobid: 306
+    wildcards: q=gastroc.12.83517483, l=10, cov=.80
+
+[Wed Jan 20 20:30:32 2021]
+Finished job 306.
+19 of 267 steps (7%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:32 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.2.89914086_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.2.89914086_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.2.89914086_10_.80_snps.txt
+    jobid: 238
+    wildcards: q=activity.total.2.89914086, l=10, cov=.80
+
+[Wed Jan 20 20:30:35 2021]
+Finished job 238.
+20 of 267 steps (7%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:35 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity5.13.8155366_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity5.13.8155366_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity5.13.8155366_10_.80_snps.txt
+    jobid: 250
+    wildcards: q=activity5.13.8155366, l=10, cov=.80
+
+[Wed Jan 20 20:30:38 2021]
+Finished job 250.
+21 of 267 steps (8%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:38 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.95673447_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.95673447_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.11.95673447_10_.80_snps.txt
+    jobid: 252
+    wildcards: q=basal.activity.11.95673447, l=10, cov=.80
+
+[Wed Jan 20 20:30:42 2021]
+Finished job 252.
+22 of 267 steps (8%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:43 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.83000091_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.83000091_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.83000091_10_.95_snps.txt
+    jobid: 149
+    wildcards: q=EDL.2.83000091, l=10, cov=.95
+
+[Wed Jan 20 20:30:46 2021]
+Finished job 149.
+23 of 267 steps (9%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:46 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.12.83514944_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.12.83514944_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.12.83514944_10_.95_snps.txt
+    jobid: 163
+    wildcards: q=TA.12.83514944, l=10, cov=.95
+
+[Wed Jan 20 20:30:49 2021]
+Finished job 163.
+24 of 267 steps (9%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:49 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.7101524_10_.95_snps.txt
+    jobid: 261
+    wildcards: q=basal.activity.13.7101524, l=10, cov=.95
+
+[Wed Jan 20 20:30:52 2021]
+Finished job 261.
+25 of 267 steps (9%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:52 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.94772022_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.94772022_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.94772022_10_.95_snps.txt
+    jobid: 275
+    wildcards: q=bmd.11.94772022, l=10, cov=.95
+
+[Wed Jan 20 20:30:55 2021]
+Finished job 275.
+26 of 267 steps (10%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:55 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.153696216_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.153696216_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.2.153696216_10_.95_snps.txt
+    jobid: 183
+    wildcards: q=activity.begin.2.153696216, l=10, cov=.95
+
+[Wed Jan 20 20:30:58 2021]
+Finished job 183.
+27 of 267 steps (10%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:30:58 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.8209788_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.8209788_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.8209788_10_.95_snps.txt
+    jobid: 197
+    wildcards: q=activity.end.13.8209788, l=10, cov=.95
+
+[Wed Jan 20 20:31:01 2021]
+Finished job 197.
+28 of 267 steps (10%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:01 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.145481081_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.145481081_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.6.145481081_10_.80_snps.txt
+    jobid: 364
+    wildcards: q=tibia.6.145481081, l=10, cov=.80
+
+[Wed Jan 20 20:31:04 2021]
+Finished job 364.
+29 of 267 steps (11%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:05 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8209788_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8209788_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.8209788_10_.95_snps.txt
+    jobid: 211
+    wildcards: q=activity.middle.13.8209788, l=10, cov=.95
+
+[Wed Jan 20 20:31:07 2021]
+Finished job 211.
+30 of 267 steps (11%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:07 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.79338858_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.79338858_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tail.length.8.79338858_10_.80_snps.txt
+    jobid: 336
+    wildcards: q=tail.length.8.79338858, l=10, cov=.80
+
+[Wed Jan 20 20:31:10 2021]
+Finished job 336.
+31 of 267 steps (12%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:10 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.95651415_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.95651415_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.11.95651415_10_.95_snps.txt
+    jobid: 225
+    wildcards: q=activity.total.11.95651415, l=10, cov=.95
+
+[Wed Jan 20 20:31:17 2021]
+Finished job 225.
+32 of 267 steps (12%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:17 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.2.89914086_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.2.89914086_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.2.89914086_10_.95_snps.txt
+    jobid: 239
+    wildcards: q=activity.total.2.89914086, l=10, cov=.95
+
+[Wed Jan 20 20:31:21 2021]
+Finished job 239.
+33 of 267 steps (12%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:21 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.95673447_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.95673447_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.11.95673447_10_.95_snps.txt
+    jobid: 253
+    wildcards: q=basal.activity.11.95673447, l=10, cov=.95
+
+[Wed Jan 20 20:31:24 2021]
+Finished job 253.
+34 of 267 steps (13%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:24 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.2.155856984_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.2.155856984_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/gastroc.2.155856984_10_.80_snps.txt
+    jobid: 308
+    wildcards: q=gastroc.2.155856984, l=10, cov=.80
+
+[Wed Jan 20 20:31:28 2021]
+Finished job 308.
+35 of 267 steps (13%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:28 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.2.155856984_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.2.155856984_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/gastroc.2.155856984_10_.95_snps.txt
+    jobid: 309
+    wildcards: q=gastroc.2.155856984, l=10, cov=.95
+
+[Wed Jan 20 20:31:30 2021]
+Finished job 309.
+36 of 267 steps (13%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:30 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8800578_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8800578_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.8800578_10_.80_snps.txt
+    jobid: 236
+    wildcards: q=activity.total.13.8800578, l=10, cov=.80
+
+[Wed Jan 20 20:31:36 2021]
+Finished job 236.
+37 of 267 steps (14%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:36 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.79338858_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.79338858_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tail.length.8.79338858_10_.95_snps.txt
+    jobid: 337
+    wildcards: q=tail.length.8.79338858, l=10, cov=.95
+
+[Wed Jan 20 20:31:39 2021]
+Finished job 337.
+38 of 267 steps (14%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:39 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.93418612_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.93418612_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.11.93418612_10_.80_snps.txt
+    jobid: 222
+    wildcards: q=activity.total.11.93418612, l=10, cov=.80
+
+[Wed Jan 20 20:31:42 2021]
+Finished job 222.
+39 of 267 steps (15%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:42 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.145481081_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.145481081_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.6.145481081_10_.95_snps.txt
+    jobid: 365
+    wildcards: q=tibia.6.145481081, l=10, cov=.95
+
+[Wed Jan 20 20:31:46 2021]
+Finished job 365.
+40 of 267 steps (15%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:46 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.13.9217096_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.13.9217096_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.13.9217096_10_.95_snps.txt
+    jobid: 393
+    wildcards: q=weight.13.9217096, l=10, cov=.95
+
+[Wed Jan 20 20:31:49 2021]
+Finished job 393.
+41 of 267 steps (15%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:49 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.89917236_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.89917236_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.2.89917236_10_.80_snps.txt
+    jobid: 184
+    wildcards: q=activity.begin.2.89917236, l=10, cov=.80
+
+[Wed Jan 20 20:31:52 2021]
+Finished job 184.
+42 of 267 steps (16%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:52 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.7101524_10_.80_snps.txt
+    jobid: 208
+    wildcards: q=activity.middle.13.7101524, l=10, cov=.80
+
+[Wed Jan 20 20:31:55 2021]
+Finished job 208.
+43 of 267 steps (16%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:55 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.93418604_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.93418604_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.11.93418604_10_.80_snps.txt
+    jobid: 198
+    wildcards: q=activity.middle.11.93418604, l=10, cov=.80
+
+[Wed Jan 20 20:31:59 2021]
+Finished job 198.
+44 of 267 steps (16%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:31:59 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.7101524_10_.80_snps.txt
+    jobid: 194
+    wildcards: q=activity.end.13.7101524, l=10, cov=.80
+
+[Wed Jan 20 20:32:01 2021]
+Finished job 194.
+45 of 267 steps (17%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:01 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8800578_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8800578_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.8800578_10_.80_snps.txt
+    jobid: 212
+    wildcards: q=activity.middle.13.8800578, l=10, cov=.80
+
+[Wed Jan 20 20:32:04 2021]
+Finished job 212.
+46 of 267 steps (17%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:04 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.9154368_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.9154368_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.13.9154368_10_.80_snps.txt
+    jobid: 180
+    wildcards: q=activity.begin.13.9154368, l=10, cov=.80
+
+[Wed Jan 20 20:32:10 2021]
+Finished job 180.
+47 of 267 steps (18%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:10 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.96653605_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.96653605_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.11.96653605_10_.80_snps.txt
+    jobid: 226
+    wildcards: q=activity.total.11.96653605, l=10, cov=.80
+
+[Wed Jan 20 20:32:18 2021]
+Finished job 226.
+48 of 267 steps (18%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:18 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.9.81882866_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.9.81882866_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.9.81882866_10_.80_snps.txt
+    jobid: 240
+    wildcards: q=activity.total.9.81882866, l=10, cov=.80
+
+[Wed Jan 20 20:32:24 2021]
+Finished job 240.
+49 of 267 steps (18%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:24 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.96816215_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.96816215_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.11.96816215_10_.80_snps.txt
+    jobid: 254
+    wildcards: q=basal.activity.11.96816215, l=10, cov=.80
+
+[Wed Jan 20 20:32:27 2021]
+Finished job 254.
+50 of 267 steps (19%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:27 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.17.34822977_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.17.34822977_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.17.34822977_10_.95_snps.txt
+    jobid: 389
+    wildcards: q=weight.bmi.tibia.17.34822977, l=10, cov=.95
+
+[Wed Jan 20 20:32:30 2021]
+Finished job 389.
+51 of 267 steps (19%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:30 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/glucose.1.152192170_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/glucose.1.152192170_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/glucose.1.152192170_10_.80_snps.txt
+    jobid: 310
+    wildcards: q=glucose.1.152192170, l=10, cov=.80
+
+[Wed Jan 20 20:32:33 2021]
+Finished job 310.
+52 of 267 steps (19%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:33 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.12.83885241_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.12.83885241_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.12.83885241_10_.95_snps.txt
+    jobid: 135
+    wildcards: q=EDL.12.83885241, l=10, cov=.95
+
+[Wed Jan 20 20:32:36 2021]
+Finished job 135.
+53 of 267 steps (20%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:36 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.24922475_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.24922475_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.5.24922475_10_.95_snps.txt
+    jobid: 289
+    wildcards: q=bmd.5.24922475, l=10, cov=.95
+
+[Wed Jan 20 20:32:39 2021]
+Finished job 289.
+54 of 267 steps (20%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:39 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147027848_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147027848_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.6.147027848_10_.80_snps.txt
+    jobid: 366
+    wildcards: q=tibia.6.147027848, l=10, cov=.80
+
+[Wed Jan 20 20:32:42 2021]
+Finished job 366.
+55 of 267 steps (21%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:42 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34013000_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34013000_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.17.34013000_10_.80_snps.txt
+    jobid: 394
+    wildcards: q=weight.17.34013000, l=10, cov=.80
+
+[Wed Jan 20 20:32:45 2021]
+Finished job 394.
+56 of 267 steps (21%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:45 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.89917236_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.2.89917236_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.2.89917236_10_.95_snps.txt
+    jobid: 185
+    wildcards: q=activity.begin.2.89917236, l=10, cov=.95
+
+[Wed Jan 20 20:32:48 2021]
+Finished job 185.
+57 of 267 steps (21%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:48 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.93418604_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.93418604_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.11.93418604_10_.95_snps.txt
+    jobid: 199
+    wildcards: q=activity.middle.11.93418604, l=10, cov=.95
+
+[Wed Jan 20 20:32:51 2021]
+Finished job 199.
+58 of 267 steps (22%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:51 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.80905518_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.80905518_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tail.length.8.80905518_10_.80_snps.txt
+    jobid: 338
+    wildcards: q=tail.length.8.80905518, l=10, cov=.80
+
+[Wed Jan 20 20:32:54 2021]
+Finished job 338.
+59 of 267 steps (22%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:54 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8800578_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.8800578_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.8800578_10_.95_snps.txt
+    jobid: 213
+    wildcards: q=activity.middle.13.8800578, l=10, cov=.95
+
+[Wed Jan 20 20:32:56 2021]
+Finished job 213.
+60 of 267 steps (22%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:32:57 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.39698535_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.39698535_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.5.39698535_10_.95_snps.txt
+    jobid: 361
+    wildcards: q=tibia.5.39698535, l=10, cov=.95
+
+[Wed Jan 20 20:33:00 2021]
+Finished job 361.
+61 of 267 steps (23%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:00 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.96653605_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.11.96653605_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.11.96653605_10_.95_snps.txt
+    jobid: 227
+    wildcards: q=activity.total.11.96653605, l=10, cov=.95
+
+[Wed Jan 20 20:33:03 2021]
+Finished job 227.
+62 of 267 steps (23%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:03 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.15600158_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.15600158_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.6.15600158_10_.95_snps.txt
+    jobid: 333
+    wildcards: q=soleus.6.15600158, l=10, cov=.95
+
+[Wed Jan 20 20:33:06 2021]
+Finished job 333.
+63 of 267 steps (24%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:06 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.9.81882866_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.9.81882866_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.9.81882866_10_.95_snps.txt
+    jobid: 241
+    wildcards: q=activity.total.9.81882866, l=10, cov=.95
+
+[Wed Jan 20 20:33:10 2021]
+Finished job 241.
+64 of 267 steps (24%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:10 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.96816215_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.11.96816215_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.11.96816215_10_.95_snps.txt
+    jobid: 255
+    wildcards: q=basal.activity.11.96816215, l=10, cov=.95
+
+[Wed Jan 20 20:33:13 2021]
+Finished job 255.
+65 of 267 steps (24%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:13 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/glucose.1.152192170_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/glucose.1.152192170_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/glucose.1.152192170_10_.95_snps.txt
+    jobid: 311
+    wildcards: q=glucose.1.152192170, l=10, cov=.95
+
+[Wed Jan 20 20:33:15 2021]
+Finished job 311.
+66 of 267 steps (25%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:15 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.11.88973192_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.11.88973192_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/gastroc.11.88973192_10_.95_snps.txt
+    jobid: 305
+    wildcards: q=gastroc.11.88973192, l=10, cov=.95
+
+[Wed Jan 20 20:33:19 2021]
+Finished job 305.
+67 of 267 steps (25%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:19 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.80905518_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.80905518_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tail.length.8.80905518_10_.95_snps.txt
+    jobid: 339
+    wildcards: q=tail.length.8.80905518, l=10, cov=.95
+
+[Wed Jan 20 20:33:22 2021]
+Finished job 339.
+68 of 267 steps (25%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:22 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.8139647_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.8139647_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.8139647_10_.95_snps.txt
+    jobid: 249
+    wildcards: q=activity30.13.8139647, l=10, cov=.95
+
+[Wed Jan 20 20:33:25 2021]
+Finished job 249.
+69 of 267 steps (26%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:25 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147027848_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147027848_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.6.147027848_10_.95_snps.txt
+    jobid: 367
+    wildcards: q=tibia.6.147027848, l=10, cov=.95
+
+[Wed Jan 20 20:33:29 2021]
+Finished job 367.
+70 of 267 steps (26%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:29 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8144012_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8144012_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.8144012_10_.95_snps.txt
+    jobid: 235
+    wildcards: q=activity.total.13.8144012, l=10, cov=.95
+
+[Wed Jan 20 20:33:32 2021]
+Finished job 235.
+71 of 267 steps (27%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:32 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34013000_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34013000_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.17.34013000_10_.95_snps.txt
+    jobid: 395
+    wildcards: q=weight.17.34013000, l=10, cov=.95
+
+[Wed Jan 20 20:33:35 2021]
+Finished job 395.
+72 of 267 steps (27%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:35 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.95636638_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.95636638_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.11.95636638_10_.80_snps.txt
+    jobid: 186
+    wildcards: q=activity.end.11.95636638, l=10, cov=.80
+
+[Wed Jan 20 20:33:44 2021]
+Finished job 186.
+73 of 267 steps (27%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.94054029_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.94054029_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.11.94054029_10_.80_snps.txt
+    jobid: 200
+    wildcards: q=activity.middle.11.94054029, l=10, cov=.80
+
+[Wed Jan 20 20:33:48 2021]
+Finished job 200.
+74 of 267 steps (28%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:48 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.9.81879809_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.9.81879809_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.9.81879809_10_.95_snps.txt
+    jobid: 221
+    wildcards: q=activity.middle.9.81879809, l=10, cov=.95
+
+[Wed Jan 20 20:33:53 2021]
+Finished job 221.
+75 of 267 steps (28%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:53 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.152116228_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.152116228_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.2.152116228_10_.80_snps.txt
+    jobid: 214
+    wildcards: q=activity.middle.2.152116228, l=10, cov=.80
+
+[Wed Jan 20 20:33:56 2021]
+Finished job 214.
+76 of 267 steps (28%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:33:56 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.10150339_10_.95_snps.txt
+    jobid: 207
+    wildcards: q=activity.middle.13.10150339, l=10, cov=.95
+
+[Wed Jan 20 20:34:03 2021]
+Finished job 207.
+77 of 267 steps (29%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:03 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.10144490_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.10144490_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.10144490_10_.80_snps.txt
+    jobid: 228
+    wildcards: q=activity.total.13.10144490, l=10, cov=.80
+
+[Wed Jan 20 20:34:09 2021]
+Finished job 228.
+78 of 267 steps (29%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:09 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.6323352_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.6323352_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.6323352_10_.95_snps.txt
+    jobid: 193
+    wildcards: q=activity.end.13.6323352, l=10, cov=.95
+
+[Wed Jan 20 20:34:17 2021]
+Finished job 193.
+79 of 267 steps (30%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:17 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.10150339_10_.80_snps.txt
+    jobid: 242
+    wildcards: q=activity30.13.10150339, l=10, cov=.80
+
+[Wed Jan 20 20:34:23 2021]
+Finished job 242.
+80 of 267 steps (30%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:23 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.10150339_10_.80_snps.txt
+    jobid: 256
+    wildcards: q=basal.activity.13.10150339, l=10, cov=.80
+
+[Wed Jan 20 20:34:31 2021]
+Finished job 256.
+81 of 267 steps (30%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:31 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/habit.ratio.18.25412656_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/habit.ratio.18.25412656_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/habit.ratio.18.25412656_10_.80_snps.txt
+    jobid: 312
+    wildcards: q=habit.ratio.18.25412656, l=10, cov=.80
+
+[Wed Jan 20 20:34:34 2021]
+Finished job 312.
+82 of 267 steps (31%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:34 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.80408302_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.80408302_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.80408302_10_.80_snps.txt
+    jobid: 372
+    wildcards: q=tibia.9.80408302, l=10, cov=.80
+
+[Wed Jan 20 20:34:41 2021]
+Finished job 372.
+83 of 267 steps (31%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:41 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.2.155812908_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.2.155812908_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.2.155812908_10_.95_snps.txt
+    jobid: 317
+    wildcards: q=plantaris.2.155812908, l=10, cov=.95
+
+[Wed Jan 20 20:34:44 2021]
+Finished job 317.
+84 of 267 steps (31%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147721449_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147721449_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.6.147721449_10_.80_snps.txt
+    jobid: 368
+    wildcards: q=tibia.6.147721449, l=10, cov=.80
+
+[Wed Jan 20 20:34:47 2021]
+Finished job 368.
+85 of 267 steps (32%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:47 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34900243_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34900243_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.17.34900243_10_.80_snps.txt
+    jobid: 396
+    wildcards: q=weight.17.34900243, l=10, cov=.80
+
+[Wed Jan 20 20:34:50 2021]
+Finished job 396.
+86 of 267 steps (32%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:50 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.81878779_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.81878779_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tail.length.8.81878779_10_.80_snps.txt
+    jobid: 340
+    wildcards: q=tail.length.8.81878779, l=10, cov=.80
+
+[Wed Jan 20 20:34:53 2021]
+Finished job 340.
+87 of 267 steps (33%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:53 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.95636638_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.95636638_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.11.95636638_10_.95_snps.txt
+    jobid: 187
+    wildcards: q=activity.end.11.95636638, l=10, cov=.95
+
+[Wed Jan 20 20:34:58 2021]
+Finished job 187.
+88 of 267 steps (33%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:34:58 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.94054029_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.94054029_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.11.94054029_10_.95_snps.txt
+    jobid: 201
+    wildcards: q=activity.middle.11.94054029, l=10, cov=.95
+
+[Wed Jan 20 20:35:01 2021]
+Finished job 201.
+89 of 267 steps (33%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:01 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.152116228_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.152116228_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.2.152116228_10_.95_snps.txt
+    jobid: 215
+    wildcards: q=activity.middle.2.152116228, l=10, cov=.95
+
+[Wed Jan 20 20:35:04 2021]
+Finished job 215.
+90 of 267 steps (34%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:04 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.8153523_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.8153523_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.13.8153523_10_.95_snps.txt
+    jobid: 179
+    wildcards: q=activity.begin.13.8153523, l=10, cov=.95
+
+[Wed Jan 20 20:35:07 2021]
+Finished job 179.
+91 of 267 steps (34%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:07 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.10144490_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.10144490_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.10144490_10_.95_snps.txt
+    jobid: 229
+    wildcards: q=activity.total.13.10144490, l=10, cov=.95
+
+[Wed Jan 20 20:35:13 2021]
+Finished job 229.
+92 of 267 steps (34%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:13 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.17.34822977_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.17.34822977_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.17.34822977_10_.80_snps.txt
+    jobid: 388
+    wildcards: q=weight.bmi.tibia.17.34822977, l=10, cov=.80
+
+[Wed Jan 20 20:35:16 2021]
+Finished job 388.
+93 of 267 steps (35%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:16 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.10150339_10_.95_snps.txt
+    jobid: 243
+    wildcards: q=activity30.13.10150339, l=10, cov=.95
+
+[Wed Jan 20 20:35:23 2021]
+Finished job 243.
+94 of 267 steps (35%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:23 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.39698535_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.5.39698535_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.5.39698535_10_.80_snps.txt
+    jobid: 360
+    wildcards: q=tibia.5.39698535, l=10, cov=.80
+
+[Wed Jan 20 20:35:25 2021]
+Finished job 360.
+95 of 267 steps (36%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:26 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.10150339_10_.95_snps.txt
+    jobid: 257
+    wildcards: q=basal.activity.13.10150339, l=10, cov=.95
+
+[Wed Jan 20 20:35:32 2021]
+Finished job 257.
+96 of 267 steps (36%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:33 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/habit.ratio.18.25412656_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/habit.ratio.18.25412656_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/habit.ratio.18.25412656_10_.95_snps.txt
+    jobid: 313
+    wildcards: q=habit.ratio.18.25412656, l=10, cov=.95
+
+[Wed Jan 20 20:35:35 2021]
+Finished job 313.
+97 of 267 steps (36%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:35 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.81878779_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tail.length.8.81878779_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tail.length.8.81878779_10_.95_snps.txt
+    jobid: 341
+    wildcards: q=tail.length.8.81878779, l=10, cov=.95
+
+[Wed Jan 20 20:35:38 2021]
+Finished job 341.
+98 of 267 steps (37%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:38 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.15600158_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.6.15600158_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.6.15600158_10_.80_snps.txt
+    jobid: 332
+    wildcards: q=soleus.6.15600158, l=10, cov=.80
+
+[Wed Jan 20 20:35:40 2021]
+Finished job 332.
+99 of 267 steps (37%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:40 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147721449_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.147721449_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.6.147721449_10_.95_snps.txt
+    jobid: 369
+    wildcards: q=tibia.6.147721449, l=10, cov=.95
+
+[Wed Jan 20 20:35:44 2021]
+Finished job 369.
+100 of 267 steps (37%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.11.88973192_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.11.88973192_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/gastroc.11.88973192_10_.80_snps.txt
+    jobid: 304
+    wildcards: q=gastroc.11.88973192, l=10, cov=.80
+
+[Wed Jan 20 20:35:46 2021]
+Finished job 304.
+101 of 267 steps (38%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:47 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34900243_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.34900243_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.17.34900243_10_.95_snps.txt
+    jobid: 397
+    wildcards: q=weight.17.34900243, l=10, cov=.95
+
+[Wed Jan 20 20:35:50 2021]
+Finished job 397.
+102 of 267 steps (38%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:50 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.8139647_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.8139647_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.8139647_10_.80_snps.txt
+    jobid: 248
+    wildcards: q=activity30.13.8139647, l=10, cov=.80
+
+[Wed Jan 20 20:35:53 2021]
+Finished job 248.
+103 of 267 steps (39%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:53 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.96653605_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.96653605_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.11.96653605_10_.80_snps.txt
+    jobid: 188
+    wildcards: q=activity.end.11.96653605, l=10, cov=.80
+
+[Wed Jan 20 20:35:56 2021]
+Finished job 188.
+104 of 267 steps (39%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:35:56 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.95651415_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.95651415_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.11.95651415_10_.80_snps.txt
+    jobid: 202
+    wildcards: q=activity.middle.11.95651415, l=10, cov=.80
+
+[Wed Jan 20 20:36:01 2021]
+Finished job 202.
+105 of 267 steps (39%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:01 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.153760436_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.153760436_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.2.153760436_10_.80_snps.txt
+    jobid: 216
+    wildcards: q=activity.middle.2.153760436, l=10, cov=.80
+
+[Wed Jan 20 20:36:04 2021]
+Finished job 216.
+106 of 267 steps (40%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:04 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8144012_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.8144012_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.8144012_10_.80_snps.txt
+    jobid: 234
+    wildcards: q=activity.total.13.8144012, l=10, cov=.80
+
+[Wed Jan 20 20:36:07 2021]
+Finished job 234.
+107 of 267 steps (40%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:07 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.5954638_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.5954638_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.5954638_10_.80_snps.txt
+    jobid: 230
+    wildcards: q=activity.total.13.5954638, l=10, cov=.80
+
+[Wed Jan 20 20:36:13 2021]
+Finished job 230.
+108 of 267 steps (40%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:13 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.9.81879809_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.9.81879809_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.9.81879809_10_.80_snps.txt
+    jobid: 220
+    wildcards: q=activity.middle.9.81879809, l=10, cov=.80
+
+[Wed Jan 20 20:36:17 2021]
+Finished job 220.
+109 of 267 steps (41%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:17 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.6038915_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.6038915_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.6038915_10_.80_snps.txt
+    jobid: 244
+    wildcards: q=activity30.13.6038915, l=10, cov=.80
+
+[Wed Jan 20 20:36:24 2021]
+Finished job 244.
+110 of 267 steps (41%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:24 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.33440009_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.33440009_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.11.33440009_10_.80_snps.txt
+    jobid: 344
+    wildcards: q=tibia.11.33440009, l=10, cov=.80
+
+[Wed Jan 20 20:36:27 2021]
+Finished job 344.
+111 of 267 steps (42%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:27 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.33440009_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.33440009_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.11.33440009_10_.95_snps.txt
+    jobid: 345
+    wildcards: q=tibia.11.33440009, l=10, cov=.95
+
+[Wed Jan 20 20:36:30 2021]
+Finished job 345.
+112 of 267 steps (42%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:30 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.80408302_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.80408302_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.80408302_10_.95_snps.txt
+    jobid: 373
+    wildcards: q=tibia.9.80408302, l=10, cov=.95
+
+[Wed Jan 20 20:36:35 2021]
+Finished job 373.
+113 of 267 steps (42%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:35 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.13.9090078_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.13.9090078_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.13.9090078_10_.80_snps.txt
+    jobid: 164
+    wildcards: q=TA.13.9090078, l=10, cov=.80
+
+[Wed Jan 20 20:36:39 2021]
+Finished job 164.
+114 of 267 steps (43%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:39 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.148328439_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.6.148328439_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.6.148328439_10_.80_snps.txt
+    jobid: 370
+    wildcards: q=tibia.6.148328439, l=10, cov=.80
+
+[Wed Jan 20 20:36:43 2021]
+Finished job 370.
+115 of 267 steps (43%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.37094289_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.37094289_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.17.37094289_10_.80_snps.txt
+    jobid: 398
+    wildcards: q=weight.17.37094289, l=10, cov=.80
+
+[Wed Jan 20 20:36:48 2021]
+Finished job 398.
+116 of 267 steps (43%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:48 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.32268598_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.32268598_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.11.32268598_10_.80_snps.txt
+    jobid: 342
+    wildcards: q=tibia.11.32268598, l=10, cov=.80
+
+[Wed Jan 20 20:36:50 2021]
+Finished job 342.
+117 of 267 steps (44%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:50 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.37094289_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.17.37094289_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.17.37094289_10_.95_snps.txt
+    jobid: 399
+    wildcards: q=weight.17.37094289, l=10, cov=.95
+
+[Wed Jan 20 20:36:54 2021]
+Finished job 399.
+118 of 267 steps (44%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:55 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.13.116222549_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.13.116222549_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.13.116222549_10_.80_snps.txt
+    jobid: 314
+    wildcards: q=plantaris.13.116222549, l=10, cov=.80
+
+[Wed Jan 20 20:36:59 2021]
+Finished job 314.
+119 of 267 steps (45%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:36:59 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.95761488_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.95761488_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.95761488_10_.80_snps.txt
+    jobid: 276
+    wildcards: q=bmd.11.95761488, l=10, cov=.80
+
+[Wed Jan 20 20:37:02 2021]
+Finished job 276.
+120 of 267 steps (45%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:02 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.13.113025220_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.13.113025220_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.13.113025220_10_.80_snps.txt
+    jobid: 136
+    wildcards: q=EDL.13.113025220, l=10, cov=.80
+
+[Wed Jan 20 20:37:05 2021]
+Finished job 136.
+121 of 267 steps (45%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:05 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.8209788_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.8209788_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.8209788_10_.80_snps.txt
+    jobid: 262
+    wildcards: q=basal.activity.13.8209788, l=10, cov=.80
+
+[Wed Jan 20 20:37:07 2021]
+Finished job 262.
+122 of 267 steps (46%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:07 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.4.85394581_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.4.85394581_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.4.85394581_10_.80_snps.txt
+    jobid: 318
+    wildcards: q=plantaris.4.85394581, l=10, cov=.80
+
+[Wed Jan 20 20:37:10 2021]
+Finished job 318.
+123 of 267 steps (46%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:10 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.81411377_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.81411377_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.81411377_10_.80_snps.txt
+    jobid: 374
+    wildcards: q=tibia.9.81411377, l=10, cov=.80
+
+[Wed Jan 20 20:37:15 2021]
+Finished job 374.
+124 of 267 steps (46%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:15 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.13.113025220_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.13.113025220_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.13.113025220_10_.95_snps.txt
+    jobid: 137
+    wildcards: q=EDL.13.113025220, l=10, cov=.95
+
+[Wed Jan 20 20:37:17 2021]
+Finished job 137.
+125 of 267 steps (47%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:17 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.13.9090078_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.13.9090078_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.13.9090078_10_.95_snps.txt
+    jobid: 165
+    wildcards: q=TA.13.9090078, l=10, cov=.95
+
+[Wed Jan 20 20:37:20 2021]
+Finished job 165.
+126 of 267 steps (47%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:20 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.8209788_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.8209788_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.8209788_10_.95_snps.txt
+    jobid: 263
+    wildcards: q=basal.activity.13.8209788, l=10, cov=.95
+
+[Wed Jan 20 20:37:22 2021]
+Finished job 263.
+127 of 267 steps (48%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:22 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.23814155_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.23814155_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.5.23814155_10_.95_snps.txt
+    jobid: 287
+    wildcards: q=bmd.5.23814155, l=10, cov=.95
+
+[Wed Jan 20 20:37:25 2021]
+Finished job 287.
+128 of 267 steps (48%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:25 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.84134413_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.84134413_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.84134413_10_.95_snps.txt
+    jobid: 151
+    wildcards: q=EDL.2.84134413, l=10, cov=.95
+
+[Wed Jan 20 20:37:29 2021]
+Finished job 151.
+129 of 267 steps (48%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:29 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.4.85394581_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.4.85394581_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.4.85394581_10_.95_snps.txt
+    jobid: 319
+    wildcards: q=plantaris.4.85394581, l=10, cov=.95
+
+[Wed Jan 20 20:37:32 2021]
+Finished job 319.
+130 of 267 steps (49%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:32 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.2.154645131_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.2.154645131_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.2.154645131_10_.80_snps.txt
+    jobid: 166
+    wildcards: q=TA.2.154645131, l=10, cov=.80
+
+[Wed Jan 20 20:37:35 2021]
+Finished job 166.
+131 of 267 steps (49%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:35 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.96912238_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.96912238_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.96912238_10_.80_snps.txt
+    jobid: 278
+    wildcards: q=bmd.11.96912238, l=10, cov=.80
+
+[Wed Jan 20 20:37:38 2021]
+Finished job 278.
+132 of 267 steps (49%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:38 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.2.155812908_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.2.155812908_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.2.155812908_10_.80_snps.txt
+    jobid: 316
+    wildcards: q=plantaris.2.155812908, l=10, cov=.80
+
+[Wed Jan 20 20:37:40 2021]
+Finished job 316.
+133 of 267 steps (50%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:40 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.95761488_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.95761488_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.11.95761488_10_.80_snps.txt
+    jobid: 346
+    wildcards: q=tibia.11.95761488, l=10, cov=.80
+
+[Wed Jan 20 20:37:44 2021]
+Finished job 346.
+134 of 267 steps (50%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.8153523_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.8153523_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.13.8153523_10_.80_snps.txt
+    jobid: 178
+    wildcards: q=activity.begin.13.8153523, l=10, cov=.80
+
+[Wed Jan 20 20:37:46 2021]
+Finished job 178.
+135 of 267 steps (51%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:46 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.6323352_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.6323352_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.6323352_10_.80_snps.txt
+    jobid: 192
+    wildcards: q=activity.end.13.6323352, l=10, cov=.80
+
+[Wed Jan 20 20:37:54 2021]
+Finished job 192.
+136 of 267 steps (51%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:37:54 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.6154389_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.6154389_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.6154389_10_.80_snps.txt
+    jobid: 258
+    wildcards: q=basal.activity.13.6154389, l=10, cov=.80
+
+[Wed Jan 20 20:38:00 2021]
+Finished job 258.
+137 of 267 steps (51%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:00 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.84134413_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.84134413_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.84134413_10_.80_snps.txt
+    jobid: 150
+    wildcards: q=EDL.2.84134413, l=10, cov=.80
+
+[Wed Jan 20 20:38:06 2021]
+Finished job 150.
+138 of 267 steps (52%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:06 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.27366822_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.27366822_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.5.27366822_10_.80_snps.txt
+    jobid: 290
+    wildcards: q=bmd.5.27366822, l=10, cov=.80
+
+[Wed Jan 20 20:38:09 2021]
+Finished job 290.
+139 of 267 steps (52%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:09 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.95761488_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.95761488_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.11.95761488_10_.95_snps.txt
+    jobid: 347
+    wildcards: q=tibia.11.95761488, l=10, cov=.95
+
+[Wed Jan 20 20:38:12 2021]
+Finished job 347.
+140 of 267 steps (52%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:12 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.27366822_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.27366822_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.5.27366822_10_.95_snps.txt
+    jobid: 291
+    wildcards: q=bmd.5.27366822, l=10, cov=.95
+
+[Wed Jan 20 20:38:15 2021]
+Finished job 291.
+141 of 267 steps (53%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:16 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.83150389_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.83150389_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.83150389_10_.80_snps.txt
+    jobid: 376
+    wildcards: q=tibia.9.83150389, l=10, cov=.80
+
+[Wed Jan 20 20:38:20 2021]
+Finished job 376.
+142 of 267 steps (53%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:20 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.94758993_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.94758993_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.a.11.94758993_10_.80_snps.txt
+    jobid: 264
+    wildcards: q=bmd.a.11.94758993, l=10, cov=.80
+
+[Wed Jan 20 20:38:23 2021]
+Finished job 264.
+143 of 267 steps (54%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:23 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.85453160_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.85453160_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.85453160_10_.80_snps.txt
+    jobid: 152
+    wildcards: q=EDL.2.85453160, l=10, cov=.80
+
+[Wed Jan 20 20:38:26 2021]
+Finished job 152.
+144 of 267 steps (54%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:26 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.9.87855594_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.9.87855594_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.9.87855594_10_.80_snps.txt
+    jobid: 320
+    wildcards: q=plantaris.9.87855594, l=10, cov=.80
+
+[Wed Jan 20 20:38:29 2021]
+Finished job 320.
+145 of 267 steps (54%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:29 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.9.87855594_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.9.87855594_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.9.87855594_10_.95_snps.txt
+    jobid: 321
+    wildcards: q=plantaris.9.87855594, l=10, cov=.95
+
+[Wed Jan 20 20:38:32 2021]
+Finished job 321.
+146 of 267 steps (55%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:32 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.2.154645131_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.2.154645131_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.2.154645131_10_.95_snps.txt
+    jobid: 167
+    wildcards: q=TA.2.154645131, l=10, cov=.95
+
+[Wed Jan 20 20:38:34 2021]
+Finished job 167.
+147 of 267 steps (55%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:34 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.93469819_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.93469819_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.93469819_10_.95_snps.txt
+    jobid: 273
+    wildcards: q=bmd.11.93469819, l=10, cov=.95
+
+[Wed Jan 20 20:38:37 2021]
+Finished job 273.
+148 of 267 steps (55%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:37 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.83150389_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.83150389_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.83150389_10_.95_snps.txt
+    jobid: 377
+    wildcards: q=tibia.9.83150389, l=10, cov=.95
+
+[Wed Jan 20 20:38:41 2021]
+Finished job 377.
+149 of 267 steps (56%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:41 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.85453160_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.85453160_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.85453160_10_.95_snps.txt
+    jobid: 153
+    wildcards: q=EDL.2.85453160, l=10, cov=.95
+
+[Wed Jan 20 20:38:45 2021]
+Finished job 153.
+150 of 267 steps (56%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:46 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.95582360_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.95582360_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.11.95582360_10_.95_snps.txt
+    jobid: 293
+    wildcards: q=bmd.n.11.95582360, l=10, cov=.95
+
+[Wed Jan 20 20:38:48 2021]
+Finished job 293.
+151 of 267 steps (57%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:48 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.96918212_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.96918212_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.11.96918212_10_.80_snps.txt
+    jobid: 294
+    wildcards: q=bmd.n.11.96918212, l=10, cov=.80
+
+[Wed Jan 20 20:38:51 2021]
+Finished job 294.
+152 of 267 steps (57%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:51 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.86662262_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.86662262_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.86662262_10_.80_snps.txt
+    jobid: 154
+    wildcards: q=EDL.2.86662262, l=10, cov=.80
+
+[Wed Jan 20 20:38:57 2021]
+Finished job 154.
+153 of 267 steps (57%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:38:57 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.155780222_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.155780222_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.155780222_10_.80_snps.txt
+    jobid: 140
+    wildcards: q=EDL.2.155780222, l=10, cov=.80
+
+[Wed Jan 20 20:38:59 2021]
+Finished job 140.
+154 of 267 steps (58%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:00 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.95761488_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.95761488_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.a.11.95761488_10_.80_snps.txt
+    jobid: 266
+    wildcards: q=bmd.a.11.95761488, l=10, cov=.80
+
+[Wed Jan 20 20:39:02 2021]
+Finished job 266.
+155 of 267 steps (58%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:02 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.15.86382123_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.15.86382123_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.15.86382123_10_.80_snps.txt
+    jobid: 280
+    wildcards: q=bmd.15.86382123, l=10, cov=.80
+
+[Wed Jan 20 20:39:05 2021]
+Finished job 280.
+156 of 267 steps (58%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:05 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.95761488_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.95761488_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.a.11.95761488_10_.95_snps.txt
+    jobid: 267
+    wildcards: q=bmd.a.11.95761488, l=10, cov=.95
+
+[Wed Jan 20 20:39:08 2021]
+Finished job 267.
+157 of 267 steps (59%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:08 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.83514944_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.83514944_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.83514944_10_.95_snps.txt
+    jobid: 351
+    wildcards: q=tibia.12.83514944, l=10, cov=.95
+
+[Wed Jan 20 20:39:11 2021]
+Finished job 351.
+158 of 267 steps (59%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:11 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.85054834_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.85054834_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.85054834_10_.95_snps.txt
+    jobid: 379
+    wildcards: q=tibia.9.85054834, l=10, cov=.95
+
+[Wed Jan 20 20:39:15 2021]
+Finished job 379.
+159 of 267 steps (60%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:15 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.86662262_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.86662262_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.86662262_10_.95_snps.txt
+    jobid: 155
+    wildcards: q=EDL.2.86662262, l=10, cov=.95
+
+[Wed Jan 20 20:39:19 2021]
+Finished job 155.
+160 of 267 steps (60%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:19 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.113404971_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.113404971_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.13.113404971_10_.95_snps.txt
+    jobid: 323
+    wildcards: q=soleus.13.113404971, l=10, cov=.95
+
+[Wed Jan 20 20:39:22 2021]
+Finished job 323.
+161 of 267 steps (60%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:22 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.32268598_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.32268598_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.11.32268598_10_.95_snps.txt
+    jobid: 343
+    wildcards: q=tibia.11.32268598, l=10, cov=.95
+
+[Wed Jan 20 20:39:25 2021]
+Finished job 343.
+162 of 267 steps (61%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:25 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.80039850_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.80039850_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.80039850_10_.95_snps.txt
+    jobid: 147
+    wildcards: q=EDL.2.80039850, l=10, cov=.95
+
+[Wed Jan 20 20:39:28 2021]
+Finished job 147.
+163 of 267 steps (61%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:29 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91175287_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91175287_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.91175287_10_.80_snps.txt
+    jobid: 352
+    wildcards: q=tibia.12.91175287, l=10, cov=.80
+
+[Wed Jan 20 20:39:31 2021]
+Finished job 352.
+164 of 267 steps (61%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:31 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.77669072_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.77669072_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.77669072_10_.80_snps.txt
+    jobid: 142
+    wildcards: q=EDL.2.77669072, l=10, cov=.80
+
+[Wed Jan 20 20:39:34 2021]
+Finished job 142.
+165 of 267 steps (62%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:34 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.18.38930957_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.18.38930957_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.18.38930957_10_.80_snps.txt
+    jobid: 296
+    wildcards: q=bmd.n.18.38930957, l=10, cov=.80
+
+[Wed Jan 20 20:39:37 2021]
+Finished job 296.
+166 of 267 steps (62%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:37 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.114802392_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.114802392_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.13.114802392_10_.80_snps.txt
+    jobid: 324
+    wildcards: q=soleus.13.114802392, l=10, cov=.80
+
+[Wed Jan 20 20:39:41 2021]
+Finished job 324.
+167 of 267 steps (63%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:41 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.93418612_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.93418612_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.11.93418612_10_.95_snps.txt
+    jobid: 171
+    wildcards: q=activity.begin.11.93418612, l=10, cov=.95
+
+[Wed Jan 20 20:39:43 2021]
+Finished job 171.
+168 of 267 steps (63%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:43 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.96913720_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.a.11.96913720_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.a.11.96913720_10_.95_snps.txt
+    jobid: 269
+    wildcards: q=bmd.a.11.96913720, l=10, cov=.95
+
+[Wed Jan 20 20:39:46 2021]
+Finished job 269.
+169 of 267 steps (63%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:46 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.18.38659321_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.18.38659321_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.18.38659321_10_.95_snps.txt
+    jobid: 283
+    wildcards: q=bmd.18.38659321, l=10, cov=.95
+
+[Wed Jan 20 20:39:49 2021]
+Finished job 283.
+170 of 267 steps (64%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:49 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.18398304_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.18398304_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.11.18398304_10_.80_snps.txt
+    jobid: 156
+    wildcards: q=TA.11.18398304, l=10, cov=.80
+
+[Wed Jan 20 20:39:51 2021]
+Finished job 156.
+171 of 267 steps (64%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:51 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91175287_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91175287_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.91175287_10_.95_snps.txt
+    jobid: 353
+    wildcards: q=tibia.12.91175287, l=10, cov=.95
+
+[Wed Jan 20 20:39:54 2021]
+Finished job 353.
+172 of 267 steps (64%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:54 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.12.83323871_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.12.83323871_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.12.83323871_10_.95_snps.txt
+    jobid: 381
+    wildcards: q=weight.bmi.tibia.12.83323871, l=10, cov=.95
+
+[Wed Jan 20 20:39:57 2021]
+Finished job 381.
+173 of 267 steps (65%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:39:57 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.77669072_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.77669072_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.77669072_10_.95_snps.txt
+    jobid: 143
+    wildcards: q=EDL.2.77669072, l=10, cov=.95
+
+[Wed Jan 20 20:40:00 2021]
+Finished job 143.
+174 of 267 steps (65%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:00 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.12.83323871_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.12.83323871_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.12.83323871_10_.80_snps.txt
+    jobid: 380
+    wildcards: q=weight.bmi.tibia.12.83323871, l=10, cov=.80
+
+[Wed Jan 20 20:40:03 2021]
+Finished job 380.
+175 of 267 steps (66%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:03 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.18398304_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.18398304_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.11.18398304_10_.95_snps.txt
+    jobid: 157
+    wildcards: q=TA.11.18398304, l=10, cov=.95
+
+[Wed Jan 20 20:40:06 2021]
+Finished job 157.
+176 of 267 steps (66%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:06 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.18.38930957_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.18.38930957_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.18.38930957_10_.95_snps.txt
+    jobid: 297
+    wildcards: q=bmd.n.18.38930957, l=10, cov=.95
+
+[Wed Jan 20 20:40:09 2021]
+Finished job 297.
+177 of 267 steps (66%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:09 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.114802392_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.114802392_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.13.114802392_10_.95_snps.txt
+    jobid: 325
+    wildcards: q=soleus.13.114802392, l=10, cov=.95
+
+[Wed Jan 20 20:40:12 2021]
+Finished job 325.
+178 of 267 steps (67%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:12 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.13.116222549_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/plantaris.13.116222549_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/plantaris.13.116222549_10_.95_snps.txt
+    jobid: 315
+    wildcards: q=plantaris.13.116222549, l=10, cov=.95
+
+[Wed Jan 20 20:40:17 2021]
+Finished job 315.
+179 of 267 steps (67%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:17 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.7101524_10_.80_snps.txt
+    jobid: 260
+    wildcards: q=basal.activity.13.7101524, l=10, cov=.80
+
+[Wed Jan 20 20:40:20 2021]
+Finished job 260.
+180 of 267 steps (67%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:20 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.94772022_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.94772022_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.94772022_10_.80_snps.txt
+    jobid: 274
+    wildcards: q=bmd.11.94772022, l=10, cov=.80
+
+[Wed Jan 20 20:40:23 2021]
+Finished job 274.
+181 of 267 steps (68%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:23 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.12.83514944_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.12.83514944_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.12.83514944_10_.80_snps.txt
+    jobid: 162
+    wildcards: q=TA.12.83514944, l=10, cov=.80
+
+[Wed Jan 20 20:40:27 2021]
+Finished job 162.
+182 of 267 steps (68%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:27 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.21721308_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.21721308_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.5.21721308_10_.80_snps.txt
+    jobid: 284
+    wildcards: q=bmd.5.21721308, l=10, cov=.80
+
+[Wed Jan 20 20:40:30 2021]
+Finished job 284.
+183 of 267 steps (69%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:30 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.5655594_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.5655594_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.13.5655594_10_.80_snps.txt
+    jobid: 382
+    wildcards: q=weight.bmi.tibia.13.5655594, l=10, cov=.80
+
+[Wed Jan 20 20:40:37 2021]
+Finished job 382.
+184 of 267 steps (69%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:37 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.78722881_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.78722881_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.78722881_10_.80_snps.txt
+    jobid: 144
+    wildcards: q=EDL.2.78722881, l=10, cov=.80
+
+[Wed Jan 20 20:40:40 2021]
+Finished job 144.
+185 of 267 steps (69%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:40 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.79522084_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.79522084_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.11.79522084_10_.80_snps.txt
+    jobid: 158
+    wildcards: q=TA.11.79522084, l=10, cov=.80
+
+[Wed Jan 20 20:40:44 2021]
+Finished job 158.
+186 of 267 steps (70%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91722613_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91722613_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.91722613_10_.80_snps.txt
+    jobid: 354
+    wildcards: q=tibia.12.91722613, l=10, cov=.80
+
+[Wed Jan 20 20:40:47 2021]
+Finished job 354.
+187 of 267 steps (70%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:47 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.23815043_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.23815043_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.5.23815043_10_.80_snps.txt
+    jobid: 298
+    wildcards: q=bmd.n.5.23815043, l=10, cov=.80
+
+[Wed Jan 20 20:40:50 2021]
+Finished job 298.
+188 of 267 steps (70%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:50 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.9242435_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.9242435_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.13.9242435_10_.80_snps.txt
+    jobid: 326
+    wildcards: q=soleus.13.9242435, l=10, cov=.80
+
+[Wed Jan 20 20:40:53 2021]
+Finished job 326.
+189 of 267 steps (71%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:53 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.94772022_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.94772022_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.11.94772022_10_.95_snps.txt
+    jobid: 173
+    wildcards: q=activity.begin.11.94772022, l=10, cov=.95
+
+[Wed Jan 20 20:40:59 2021]
+Finished job 173.
+190 of 267 steps (71%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:40:59 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.96852500_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.96852500_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.11.96852500_10_.95_snps.txt
+    jobid: 205
+    wildcards: q=activity.middle.11.96852500, l=10, cov=.95
+
+[Wed Jan 20 20:41:05 2021]
+Finished job 205.
+191 of 267 steps (72%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:05 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.7101524_10_.95_snps.txt
+    jobid: 233
+    wildcards: q=activity.total.13.7101524, l=10, cov=.95
+
+[Wed Jan 20 20:41:14 2021]
+Finished job 233.
+192 of 267 steps (72%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:14 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.7101524_10_.80_snps.txt
+    jobid: 246
+    wildcards: q=activity30.13.7101524, l=10, cov=.80
+
+[Wed Jan 20 20:41:21 2021]
+Finished job 246.
+193 of 267 steps (72%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:21 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.3.15783853_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.3.15783853_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.3.15783853_10_.80_snps.txt
+    jobid: 330
+    wildcards: q=soleus.3.15783853, l=10, cov=.80
+
+[Wed Jan 20 20:41:25 2021]
+Finished job 330.
+194 of 267 steps (73%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:25 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.11.79954876_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/gastroc.11.79954876_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/gastroc.11.79954876_10_.95_snps.txt
+    jobid: 303
+    wildcards: q=gastroc.11.79954876, l=10, cov=.95
+
+[Wed Jan 20 20:41:27 2021]
+Finished job 303.
+195 of 267 steps (73%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:28 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.7632884_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.13.7632884_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.13.7632884_10_.95_snps.txt
+    jobid: 177
+    wildcards: q=activity.begin.13.7632884, l=10, cov=.95
+
+[Wed Jan 20 20:41:33 2021]
+Finished job 177.
+196 of 267 steps (73%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:33 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.10150339_10_.95_snps.txt
+    jobid: 191
+    wildcards: q=activity.end.13.10150339, l=10, cov=.95
+
+[Wed Jan 20 20:41:40 2021]
+Finished job 191.
+197 of 267 steps (74%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:40 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.89917236_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.89917236_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.2.89917236_10_.95_snps.txt
+    jobid: 219
+    wildcards: q=activity.middle.2.89917236, l=10, cov=.95
+
+[Wed Jan 20 20:41:47 2021]
+Finished job 219.
+198 of 267 steps (74%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:47 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.18.38659321_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.18.38659321_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.18.38659321_10_.80_snps.txt
+    jobid: 282
+    wildcards: q=bmd.18.38659321, l=10, cov=.80
+
+[Wed Jan 20 20:41:49 2021]
+Finished job 282.
+199 of 267 steps (75%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:49 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.7101524_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.7101524_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.7101524_10_.95_snps.txt
+    jobid: 247
+    wildcards: q=activity30.13.7101524, l=10, cov=.95
+
+[Wed Jan 20 20:41:56 2021]
+Finished job 247.
+200 of 267 steps (75%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:41:56 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.21721308_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.21721308_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.5.21721308_10_.95_snps.txt
+    jobid: 285
+    wildcards: q=bmd.5.21721308, l=10, cov=.95
+
+[Wed Jan 20 20:42:02 2021]
+Finished job 285.
+201 of 267 steps (75%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:02 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.5655594_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.5655594_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.13.5655594_10_.95_snps.txt
+    jobid: 383
+    wildcards: q=weight.bmi.tibia.13.5655594, l=10, cov=.95
+
+[Wed Jan 20 20:42:09 2021]
+Finished job 383.
+202 of 267 steps (76%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:09 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91722613_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.12.91722613_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.12.91722613_10_.95_snps.txt
+    jobid: 355
+    wildcards: q=tibia.12.91722613, l=10, cov=.95
+
+[Wed Jan 20 20:42:13 2021]
+Finished job 355.
+203 of 267 steps (76%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:13 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.78722881_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.78722881_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.78722881_10_.95_snps.txt
+    jobid: 145
+    wildcards: q=EDL.2.78722881, l=10, cov=.95
+
+[Wed Jan 20 20:42:17 2021]
+Finished job 145.
+204 of 267 steps (76%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:17 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.100053320_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.100053320_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.100053320_10_.95_snps.txt
+    jobid: 271
+    wildcards: q=bmd.11.100053320, l=10, cov=.95
+
+[Wed Jan 20 20:42:22 2021]
+Finished job 271.
+205 of 267 steps (77%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:22 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.79522084_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.79522084_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.11.79522084_10_.95_snps.txt
+    jobid: 159
+    wildcards: q=TA.11.79522084, l=10, cov=.95
+
+[Wed Jan 20 20:42:25 2021]
+Finished job 159.
+206 of 267 steps (77%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:25 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.95761488_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.95761488_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.95761488_10_.95_snps.txt
+    jobid: 277
+    wildcards: q=bmd.11.95761488, l=10, cov=.95
+
+[Wed Jan 20 20:42:28 2021]
+Finished job 277.
+207 of 267 steps (78%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:28 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.23815043_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.23815043_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.5.23815043_10_.95_snps.txt
+    jobid: 299
+    wildcards: q=bmd.n.5.23815043, l=10, cov=.95
+
+[Wed Jan 20 20:42:32 2021]
+Finished job 299.
+208 of 267 steps (78%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:32 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.81411377_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.81411377_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.81411377_10_.95_snps.txt
+    jobid: 375
+    wildcards: q=tibia.9.81411377, l=10, cov=.95
+
+[Wed Jan 20 20:42:39 2021]
+Finished job 375.
+209 of 267 steps (78%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:39 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.9242435_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.9242435_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.13.9242435_10_.95_snps.txt
+    jobid: 327
+    wildcards: q=soleus.13.9242435, l=10, cov=.95
+
+[Wed Jan 20 20:42:44 2021]
+Finished job 327.
+210 of 267 steps (79%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.12517342_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.12517342_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.15.12517342_10_.80_snps.txt
+    jobid: 358
+    wildcards: q=tibia.15.12517342, l=10, cov=.80
+
+[Wed Jan 20 20:42:47 2021]
+Finished job 358.
+211 of 267 steps (79%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:47 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.6038915_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity30.13.6038915_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity30.13.6038915_10_.95_snps.txt
+    jobid: 245
+    wildcards: q=activity30.13.6038915, l=10, cov=.95
+
+[Wed Jan 20 20:42:54 2021]
+Finished job 245.
+212 of 267 steps (79%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:54 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.113404971_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.13.113404971_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.13.113404971_10_.80_snps.txt
+    jobid: 322
+    wildcards: q=soleus.13.113404971, l=10, cov=.80
+
+[Wed Jan 20 20:42:58 2021]
+Finished job 322.
+213 of 267 steps (80%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:42:58 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.2.155505679_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.2.155505679_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.2.155505679_10_.95_snps.txt
+    jobid: 329
+    wildcards: q=soleus.2.155505679, l=10, cov=.95
+
+[Wed Jan 20 20:43:00 2021]
+Finished job 329.
+214 of 267 steps (80%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:00 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.100053320_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.100053320_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.100053320_10_.80_snps.txt
+    jobid: 270
+    wildcards: q=bmd.11.100053320, l=10, cov=.80
+
+[Wed Jan 20 20:43:07 2021]
+Finished job 270.
+215 of 267 steps (81%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:07 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.96952835_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.11.96952835_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.11.96952835_10_.80_snps.txt
+    jobid: 348
+    wildcards: q=tibia.11.96952835, l=10, cov=.80
+
+[Wed Jan 20 20:43:09 2021]
+Finished job 348.
+216 of 267 steps (81%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:10 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.94772022_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.94772022_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.11.94772022_10_.80_snps.txt
+    jobid: 172
+    wildcards: q=activity.begin.11.94772022, l=10, cov=.80
+
+[Wed Jan 20 20:43:15 2021]
+Finished job 172.
+217 of 267 steps (81%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:15 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.13.114188942_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.13.114188942_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.13.114188942_10_.80_snps.txt
+    jobid: 138
+    wildcards: q=EDL.13.114188942, l=10, cov=.80
+
+[Wed Jan 20 20:43:18 2021]
+Finished job 138.
+218 of 267 steps (82%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:18 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.95651415_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.11.95651415_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.11.95651415_10_.95_snps.txt
+    jobid: 203
+    wildcards: q=activity.middle.11.95651415, l=10, cov=.95
+
+[Wed Jan 20 20:43:23 2021]
+Finished job 203.
+219 of 267 steps (82%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:23 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.5954638_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.total.13.5954638_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.total.13.5954638_10_.95_snps.txt
+    jobid: 231
+    wildcards: q=activity.total.13.5954638, l=10, cov=.95
+
+[Wed Jan 20 20:43:30 2021]
+Finished job 231.
+220 of 267 steps (82%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:30 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.95582360_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.95582360_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.11.95582360_10_.80_snps.txt
+    jobid: 292
+    wildcards: q=bmd.n.11.95582360, l=10, cov=.80
+
+[Wed Jan 20 20:43:33 2021]
+Finished job 292.
+221 of 267 steps (83%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:33 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.96964818_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.96964818_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.11.96964818_10_.80_snps.txt
+    jobid: 174
+    wildcards: q=activity.begin.11.96964818, l=10, cov=.80
+
+[Wed Jan 20 20:43:37 2021]
+Finished job 174.
+222 of 267 steps (83%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:37 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.13.10150339_10_.80_snps.txt
+    jobid: 206
+    wildcards: q=activity.middle.13.10150339, l=10, cov=.80
+
+[Wed Jan 20 20:43:44 2021]
+Finished job 206.
+223 of 267 steps (84%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.93469819_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.11.93469819_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.11.93469819_10_.80_snps.txt
+    jobid: 272
+    wildcards: q=bmd.11.93469819, l=10, cov=.80
+
+[Wed Jan 20 20:43:48 2021]
+Finished job 272.
+224 of 267 steps (84%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:48 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.85054834_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.9.85054834_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.9.85054834_10_.80_snps.txt
+    jobid: 378
+    wildcards: q=tibia.9.85054834, l=10, cov=.80
+
+[Wed Jan 20 20:43:53 2021]
+Finished job 378.
+225 of 267 steps (84%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:53 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.11500538_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.11500538_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.15.11500538_10_.80_snps.txt
+    jobid: 356
+    wildcards: q=tibia.15.11500538, l=10, cov=.80
+
+[Wed Jan 20 20:43:56 2021]
+Finished job 356.
+226 of 267 steps (85%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:56 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.23814155_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.5.23814155_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.5.23814155_10_.80_snps.txt
+    jobid: 286
+    wildcards: q=bmd.5.23814155, l=10, cov=.80
+
+[Wed Jan 20 20:43:58 2021]
+Finished job 286.
+227 of 267 steps (85%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:43:59 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.8924722_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.8924722_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.13.8924722_10_.80_snps.txt
+    jobid: 384
+    wildcards: q=weight.bmi.tibia.13.8924722, l=10, cov=.80
+
+[Wed Jan 20 20:44:02 2021]
+Finished job 384.
+228 of 267 steps (85%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:02 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.17.34013675_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.17.34013675_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.17.34013675_10_.95_snps.txt
+    jobid: 387
+    wildcards: q=weight.bmi.tibia.17.34013675, l=10, cov=.95
+
+[Wed Jan 20 20:44:05 2021]
+Finished job 387.
+229 of 267 steps (86%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:05 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.80039850_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.80039850_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.80039850_10_.80_snps.txt
+    jobid: 146
+    wildcards: q=EDL.2.80039850, l=10, cov=.80
+
+[Wed Jan 20 20:44:08 2021]
+Finished job 146.
+230 of 267 steps (86%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:08 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.12517342_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.12517342_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.15.12517342_10_.95_snps.txt
+    jobid: 359
+    wildcards: q=tibia.15.12517342, l=10, cov=.95
+
+[Wed Jan 20 20:44:11 2021]
+Finished job 359.
+231 of 267 steps (87%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:11 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.88973232_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.88973232_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.11.88973232_10_.80_snps.txt
+    jobid: 160
+    wildcards: q=TA.11.88973232, l=10, cov=.80
+
+[Wed Jan 20 20:44:14 2021]
+Finished job 160.
+232 of 267 steps (87%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:14 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.3.15783853_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/soleus.3.15783853_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/soleus.3.15783853_10_.95_snps.txt
+    jobid: 331
+    wildcards: q=soleus.3.15783853, l=10, cov=.95
+
+[Wed Jan 20 20:44:17 2021]
+Finished job 331.
+233 of 267 steps (87%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:17 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.24920012_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.24920012_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.5.24920012_10_.80_snps.txt
+    jobid: 300
+    wildcards: q=bmd.n.5.24920012, l=10, cov=.80
+
+[Wed Jan 20 20:44:20 2021]
+Finished job 300.
+234 of 267 steps (88%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:20 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.88973232_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.11.88973232_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.11.88973232_10_.95_snps.txt
+    jobid: 161
+    wildcards: q=TA.11.88973232, l=10, cov=.95
+
+[Wed Jan 20 20:44:22 2021]
+Finished job 161.
+235 of 267 steps (88%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:22 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.6154389_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/basal.activity.13.6154389_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/basal.activity.13.6154389_10_.95_snps.txt
+    jobid: 259
+    wildcards: q=basal.activity.13.6154389, l=10, cov=.95
+
+[Wed Jan 20 20:44:29 2021]
+Finished job 259.
+236 of 267 steps (88%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:29 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.24920012_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.5.24920012_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.5.24920012_10_.95_snps.txt
+    jobid: 301
+    wildcards: q=bmd.n.5.24920012, l=10, cov=.95
+
+[Wed Jan 20 20:44:32 2021]
+Finished job 301.
+237 of 267 steps (89%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:32 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.96964818_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.begin.11.96964818_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.begin.11.96964818_10_.95_snps.txt
+    jobid: 175
+    wildcards: q=activity.begin.11.96964818, l=10, cov=.95
+
+[Wed Jan 20 20:44:36 2021]
+Finished job 175.
+238 of 267 steps (89%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:36 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.96653605_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.11.96653605_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.11.96653605_10_.95_snps.txt
+    jobid: 189
+    wildcards: q=activity.end.11.96653605, l=10, cov=.95
+
+[Wed Jan 20 20:44:38 2021]
+Finished job 189.
+239 of 267 steps (90%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:39 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.153760436_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.middle.2.153760436_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.middle.2.153760436_10_.95_snps.txt
+    jobid: 217
+    wildcards: q=activity.middle.2.153760436, l=10, cov=.95
+
+[Wed Jan 20 20:44:41 2021]
+Finished job 217.
+240 of 267 steps (90%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:41 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.11500538_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/tibia.15.11500538_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/tibia.15.11500538_10_.95_snps.txt
+    jobid: 357
+    wildcards: q=tibia.15.11500538, l=10, cov=.95
+
+[Wed Jan 20 20:44:43 2021]
+Finished job 357.
+241 of 267 steps (90%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:44 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.8924722_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/weight.bmi.tibia.13.8924722_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/weight.bmi.tibia.13.8924722_10_.95_snps.txt
+    jobid: 385
+    wildcards: q=weight.bmi.tibia.13.8924722, l=10, cov=.95
+
+[Wed Jan 20 20:44:47 2021]
+Finished job 385.
+242 of 267 steps (91%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:47 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.2.155819633_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/TA.2.155819633_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/TA.2.155819633_10_.95_snps.txt
+    jobid: 169
+    wildcards: q=TA.2.155819633, l=10, cov=.95
+
+[Wed Jan 20 20:44:50 2021]
+Finished job 169.
+243 of 267 steps (91%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:50 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.15.86382123_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.15.86382123_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.15.86382123_10_.95_snps.txt
+    jobid: 281
+    wildcards: q=bmd.15.86382123, l=10, cov=.95
+
+[Wed Jan 20 20:44:52 2021]
+Finished job 281.
+244 of 267 steps (91%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:52 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.155780222_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/EDL.2.155780222_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/EDL.2.155780222_10_.95_snps.txt
+    jobid: 141
+    wildcards: q=EDL.2.155780222, l=10, cov=.95
+
+[Wed Jan 20 20:44:55 2021]
+Finished job 141.
+245 of 267 steps (92%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:55 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.96918212_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/bmd.n.11.96918212_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/bmd.n.11.96918212_10_.95_snps.txt
+    jobid: 295
+    wildcards: q=bmd.n.11.96918212, l=10, cov=.95
+
+[Wed Jan 20 20:44:58 2021]
+Finished job 295.
+246 of 267 steps (92%) done
+Select jobs to execute...
+
+[Wed Jan 20 20:44:58 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.10150339_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/input/activity.end.13.10150339_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output_ref/activity.end.13.10150339_10_.80_snps.txt
+    jobid: 190
+    wildcards: q=activity.end.13.10150339, l=10, cov=.80
+

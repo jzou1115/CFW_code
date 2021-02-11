@@ -1,0 +1,22 @@
+Building DAG of jobs...
+MissingInputException in line 31 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Missing input files for rule all:
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr1.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr14.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr16.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr15.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr9.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr2.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr18.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr8.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr17.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr11.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr4.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr19.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr12.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr10.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr6.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr13.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr5.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr7.oxinfo90.txt
+/u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox/genotypes/chr3.oxinfo90.txt

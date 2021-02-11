@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	annovar_input2
+	1
+Select jobs to execute...
+
+[Thu Jan 14 11:04:34 2021]
+rule annovar_input2:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/locuszoom/bmd.5.21721308_r2.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_annovar_input_fixRef.txt
+    jobid: 0
+    wildcards: q=bmd.5.21721308
+
+[Thu Jan 14 11:04:35 2021]
+Error in rule annovar_input2:
+    jobid: 0
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_annovar_input_fixRef.txt
+
+RuleException:
+URLError in line 236 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+<urlopen error [Errno 2] No such file or directory: '/u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/scripts/annovar_input_fixRef.py'>
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2339, in run_wrapper
+  File "/u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile", line 236, in __rule_annovar_input2
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/urllib/request.py", line 222, in urlopen
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/urllib/request.py", line 525, in open
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/urllib/request.py", line 543, in _open
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/urllib/request.py", line 503, in _call_chain
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/urllib/request.py", line 1453, in file_open
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/urllib/request.py", line 1492, in open_local_file
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2351, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2021-01-14T110419.196269.snakemake.log

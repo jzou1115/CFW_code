@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in line 135 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Wildcards in input files cannot be determined from output files:
+'chr'

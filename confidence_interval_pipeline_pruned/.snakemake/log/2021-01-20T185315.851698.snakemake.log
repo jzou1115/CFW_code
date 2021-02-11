@@ -1,0 +1,83 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	all
+	130	run_susier_ref
+	131
+Select jobs to execute...
+
+[Wed Jan 20 18:53:18 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/soleus.3.16274336_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/soleus.3.16274336_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/soleus.3.16274336_1_.80.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/soleus.3.16274336_1_.80.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/soleus.3.16274336_1_.80_snps.txt
+    jobid: 160
+    wildcards: q=soleus.3.16274336, l=1, cov=.80
+
+[Wed Jan 20 18:53:23 2021]
+Finished job 160.
+1 of 131 steps (0.76%) done
+Select jobs to execute...
+
+[Wed Jan 20 18:53:23 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/tibia.5.41884858_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/tibia.5.41884858_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.5.41884858_1_.95.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.5.41884858_1_.95.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.5.41884858_1_.95_snps.txt
+    jobid: 177
+    wildcards: q=tibia.5.41884858, l=1, cov=.95
+
+[Wed Jan 20 18:53:26 2021]
+Finished job 177.
+2 of 131 steps (2%) done
+Select jobs to execute...
+
+[Wed Jan 20 18:53:26 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/weight.bmi.tibia.17.33893781_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/weight.bmi.tibia.17.33893781_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/weight.bmi.tibia.17.33893781_1_.95.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/weight.bmi.tibia.17.33893781_1_.95.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/weight.bmi.tibia.17.33893781_1_.95_snps.txt
+    jobid: 191
+    wildcards: q=weight.bmi.tibia.17.33893781, l=1, cov=.95
+
+[Wed Jan 20 18:53:29 2021]
+Finished job 191.
+3 of 131 steps (2%) done
+Select jobs to execute...
+
+[Wed Jan 20 18:53:29 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/weight.bmi.tibia.19.4169458_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/weight.bmi.tibia.19.4169458_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/weight.bmi.tibia.19.4169458_1_.80.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/weight.bmi.tibia.19.4169458_1_.80.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/weight.bmi.tibia.19.4169458_1_.80_snps.txt
+    jobid: 192
+    wildcards: q=weight.bmi.tibia.19.4169458, l=1, cov=.80
+
+[Wed Jan 20 18:53:32 2021]
+Finished job 192.
+4 of 131 steps (3%) done
+Select jobs to execute...
+
+[Wed Jan 20 18:53:32 2021]
+rule run_susier_ref:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/tibia.12.83514944_pruned_sorted.z, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/input/tibia.12.83514944_pruned_sorted.ld
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.12.83514944_1_.80.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.12.83514944_1_.80.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.12.83514944_1_.80_snps.txt
+    jobid: 164
+    wildcards: q=tibia.12.83514944, l=1, cov=.80
+
+[Wed Jan 20 18:53:35 2021]
+Error in rule run_susier_ref:
+    jobid: 164
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.12.83514944_1_.80.RData, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.12.83514944_1_.80.png, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned_ox_redo/finemapping/output_ref/tibia.12.83514944_1_.80_snps.txt
+
+RuleException:
+CalledProcessError in line 207 of /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile:
+Command 'set -euo pipefail;  Rscript --vanilla /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/scripts/tmporz1aws6.run_susier_ref.R' returned non-zero exit status 1.
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2339, in run_wrapper
+  File "/u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/Snakefile", line 207, in __rule_run_susier_ref
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 560, in _callback
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/concurrent/futures/thread.py", line 57, in run
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 546, in cached_or_run
+  File "/u/home/j/jzou1115/project-ernst/software/anaconda3/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 2351, in run_wrapper
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/log/2021-01-20T185315.851698.snakemake.log

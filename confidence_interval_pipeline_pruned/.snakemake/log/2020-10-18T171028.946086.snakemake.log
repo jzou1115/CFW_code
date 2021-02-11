@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	all
+	1	summarize_finemapping
+	2
+
+[Sun Oct 18 17:10:30 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_finemap_snps.txt
+    jobid: 1
+    wildcards: q=basal.activity.13.8209788
+
+Submitted job 1 with external jobid 'Your job 4796374 ("summarize_finemapping") has been submitted'.
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.
+Cancelling snakemake on user request.

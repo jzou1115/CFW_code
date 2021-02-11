@@ -1,0 +1,1500 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	all
+	132	summarize_finemapping
+	133
+
+[Sun Oct 18 17:10:55 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.88973232_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.88973232_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.88973232_finemap_snps.txt
+    jobid: 14
+    wildcards: q=TA.11.88973232
+
+Submitted job 14 with external jobid 'Your job 4796380 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:10:56 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_finemap_snps.txt
+    jobid: 129
+    wildcards: q=weight.bmi.tibia.2.153707637
+
+Submitted job 129 with external jobid 'Your job 4796381 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:10:58 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.18.38930957_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.18.38930957_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.18.38930957_finemap_snps.txt
+    jobid: 82
+    wildcards: q=bmd.n.18.38930957
+
+Submitted job 82 with external jobid 'Your job 4796382 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:10:59 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34822977_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34822977_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34822977_finemap_snps.txt
+    jobid: 128
+    wildcards: q=weight.bmi.tibia.17.34822977
+
+Submitted job 128 with external jobid 'Your job 4796383 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:00 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.145481081_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.145481081_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.145481081_finemap_snps.txt
+    jobid: 116
+    wildcards: q=tibia.6.145481081
+
+Submitted job 116 with external jobid 'Your job 4796384 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:02 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.6154389_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.6154389_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.6154389_finemap_snps.txt
+    jobid: 63
+    wildcards: q=basal.activity.13.6154389
+
+Submitted job 63 with external jobid 'Your job 4796386 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:03 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.4.85394581_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.4.85394581_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.4.85394581_finemap_snps.txt
+    jobid: 93
+    wildcards: q=plantaris.4.85394581
+
+Submitted job 93 with external jobid 'Your job 4796387 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:04 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_finemap_snps.txt
+    jobid: 21
+    wildcards: q=activity.begin.11.96964818
+
+Submitted job 21 with external jobid 'Your job 4796388 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:06 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34900243_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34900243_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34900243_finemap_snps.txt
+    jobid: 132
+    wildcards: q=weight.17.34900243
+
+Submitted job 132 with external jobid 'Your job 4796389 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:07 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/habit.ratio.18.25412656_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/habit.ratio.18.25412656_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/habit.ratio.18.25412656_finemap_snps.txt
+    jobid: 90
+    wildcards: q=habit.ratio.18.25412656
+
+Submitted job 90 with external jobid 'Your job 4796390 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:08 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.9.81879809_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.9.81879809_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.9.81879809_finemap_snps.txt
+    jobid: 44
+    wildcards: q=activity.middle.9.81879809
+
+Submitted job 44 with external jobid 'Your job 4796391 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:10 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.6038915_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.6038915_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.6038915_finemap_snps.txt
+    jobid: 56
+    wildcards: q=activity30.13.6038915
+
+Submitted job 56 with external jobid 'Your job 4796392 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:11 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_finemap_snps.txt
+    jobid: 105
+    wildcards: q=tibia.11.32268598
+
+Submitted job 105 with external jobid 'Your job 4796393 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:13 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_finemap_snps.txt
+    jobid: 130
+    wildcards: q=weight.13.9217096
+
+Submitted job 130 with external jobid 'Your job 4796394 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:15 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34013675_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34013675_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.17.34013675_finemap_snps.txt
+    jobid: 127
+    wildcards: q=weight.bmi.tibia.17.34013675
+
+Submitted job 127 with external jobid 'Your job 4796395 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:16 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.152116228_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.152116228_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.152116228_finemap_snps.txt
+    jobid: 41
+    wildcards: q=activity.middle.2.152116228
+
+Submitted job 41 with external jobid 'Your job 4796396 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:17 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.7101524_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.7101524_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.7101524_finemap_snps.txt
+    jobid: 57
+    wildcards: q=activity30.13.7101524
+
+Submitted job 57 with external jobid 'Your job 4796397 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:19 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.9242435_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.9242435_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.9242435_finemap_snps.txt
+    jobid: 97
+    wildcards: q=soleus.13.9242435
+
+Submitted job 97 with external jobid 'Your job 4796398 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:20 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.79338858_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.79338858_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.79338858_finemap_snps.txt
+    jobid: 102
+    wildcards: q=tail.length.8.79338858
+
+Submitted job 102 with external jobid 'Your job 4796400 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:21 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_finemap_snps.txt
+    jobid: 6
+    wildcards: q=EDL.2.78722881
+
+Submitted job 6 with external jobid 'Your job 4796401 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:23 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8209788_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8209788_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8209788_finemap_snps.txt
+    jobid: 39
+    wildcards: q=activity.middle.13.8209788
+
+Submitted job 39 with external jobid 'Your job 4796402 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:24 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.12.83514944_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.12.83514944_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.12.83514944_finemap_snps.txt
+    jobid: 15
+    wildcards: q=TA.12.83514944
+
+Submitted job 15 with external jobid 'Your job 4796403 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:25 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_finemap_snps.txt
+    jobid: 33
+    wildcards: q=activity.middle.11.93418604
+
+Submitted job 33 with external jobid 'Your job 4796404 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:27 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34013000_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34013000_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.34013000_finemap_snps.txt
+    jobid: 131
+    wildcards: q=weight.17.34013000
+
+Submitted job 131 with external jobid 'Your job 4796405 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:28 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8800578_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8800578_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.8800578_finemap_snps.txt
+    jobid: 40
+    wildcards: q=activity.middle.13.8800578
+
+Submitted job 40 with external jobid 'Your job 4796406 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:29 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.7101524_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.7101524_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.7101524_finemap_snps.txt
+    jobid: 50
+    wildcards: q=activity.total.13.7101524
+
+Submitted job 50 with external jobid 'Your job 4796407 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:31 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.83150389_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.83150389_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.83150389_finemap_snps.txt
+    jobid: 122
+    wildcards: q=tibia.9.83150389
+
+Submitted job 122 with external jobid 'Your job 4796408 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:33 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.100053320_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.100053320_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.100053320_finemap_snps.txt
+    jobid: 69
+    wildcards: q=bmd.11.100053320
+
+Submitted job 69 with external jobid 'Your job 4796409 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:34 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.12.83517483_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.12.83517483_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.12.83517483_finemap_snps.txt
+    jobid: 87
+    wildcards: q=gastroc.12.83517483
+
+Submitted job 87 with external jobid 'Your job 4796410 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:36 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.95651415_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.95651415_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.95651415_finemap_snps.txt
+    jobid: 35
+    wildcards: q=activity.middle.11.95651415
+
+Submitted job 35 with external jobid 'Your job 4796411 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:37 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity5.13.8155366_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity5.13.8155366_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity5.13.8155366_finemap_snps.txt
+    jobid: 59
+    wildcards: q=activity5.13.8155366
+
+Submitted job 59 with external jobid 'Your job 4796412 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:38 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.13.9090078_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.13.9090078_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.13.9090078_finemap_snps.txt
+    jobid: 16
+    wildcards: q=TA.13.9090078
+
+Submitted job 16 with external jobid 'Your job 4796414 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:40 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.12517342_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.12517342_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.12517342_finemap_snps.txt
+    jobid: 113
+    wildcards: q=tibia.15.12517342
+
+Submitted job 113 with external jobid 'Your job 4796415 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:41 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.10150339_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.10150339_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.10150339_finemap_snps.txt
+    jobid: 62
+    wildcards: q=basal.activity.13.10150339
+
+Submitted job 62 with external jobid 'Your job 4796416 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:43 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.8209788_finemap_snps.txt
+    jobid: 65
+    wildcards: q=basal.activity.13.8209788
+
+Submitted job 65 with external jobid 'Your job 4796418 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:44 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.18398304_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.18398304_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.18398304_finemap_snps.txt
+    jobid: 12
+    wildcards: q=TA.11.18398304
+
+Submitted job 12 with external jobid 'Your job 4796419 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:45 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.89917236_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.89917236_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.89917236_finemap_snps.txt
+    jobid: 43
+    wildcards: q=activity.middle.2.89917236
+
+Submitted job 43 with external jobid 'Your job 4796420 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:47 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.81411377_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.81411377_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.81411377_finemap_snps.txt
+    jobid: 121
+    wildcards: q=tibia.9.81411377
+
+Submitted job 121 with external jobid 'Your job 4796421 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:49 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.89917236_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.89917236_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.89917236_finemap_snps.txt
+    jobid: 26
+    wildcards: q=activity.begin.2.89917236
+
+Submitted job 26 with external jobid 'Your job 4796423 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:50 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.94772022_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.94772022_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.94772022_finemap_snps.txt
+    jobid: 71
+    wildcards: q=bmd.11.94772022
+
+[Sun Oct 18 17:11:51 2020]
+Error in rule summarize_finemapping:
+    jobid: 33
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.93418604_finemap_snps.txt
+    cluster_jobid: Your job 4796404 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 33, external: Your job 4796404 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.33.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 71 with external jobid 'Your job 4796424 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:51 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.96912238_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.96912238_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.96912238_finemap_snps.txt
+    jobid: 73
+    wildcards: q=bmd.11.96912238
+
+[Sun Oct 18 17:11:51 2020]
+Error in rule summarize_finemapping:
+    jobid: 129
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.2.153707637_finemap_snps.txt
+    cluster_jobid: Your job 4796381 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 129, external: Your job 4796381 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.129.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:11:52 2020]
+Error in rule summarize_finemapping:
+    jobid: 21
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.96964818_finemap_snps.txt
+    cluster_jobid: Your job 4796388 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 21, external: Your job 4796388 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.21.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:11:52 2020]
+Error in rule summarize_finemapping:
+    jobid: 105
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.32268598_finemap_snps.txt
+    cluster_jobid: Your job 4796393 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 105, external: Your job 4796393 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.105.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:11:52 2020]
+Error in rule summarize_finemapping:
+    jobid: 130
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.13.9217096_finemap_snps.txt
+    cluster_jobid: Your job 4796394 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 130, external: Your job 4796394 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.130.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:11:52 2020]
+Error in rule summarize_finemapping:
+    jobid: 41
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.152116228_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.152116228_finemap_snps.txt
+    cluster_jobid: Your job 4796396 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 41, external: Your job 4796396 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.41.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 73 with external jobid 'Your job 4796425 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:53 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91722613_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91722613_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91722613_finemap_snps.txt
+    jobid: 111
+    wildcards: q=tibia.12.91722613
+
+[Sun Oct 18 17:11:53 2020]
+Error in rule summarize_finemapping:
+    jobid: 6
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.78722881_finemap_snps.txt
+    cluster_jobid: Your job 4796401 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 6, external: Your job 4796401 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 111 with external jobid 'Your job 4796426 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:54 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_finemap_snps.txt
+    jobid: 83
+    wildcards: q=bmd.n.5.23815043
+
+Submitted job 83 with external jobid 'Your job 4796427 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:55 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.9.87855594_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.9.87855594_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.9.87855594_finemap_snps.txt
+    jobid: 94
+    wildcards: q=plantaris.9.87855594
+
+Submitted job 94 with external jobid 'Your job 4796428 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:57 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.24922475_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.24922475_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.24922475_finemap_snps.txt
+    jobid: 78
+    wildcards: q=bmd.5.24922475
+
+Submitted job 78 with external jobid 'Your job 4796430 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:58 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.96913720_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.96913720_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.96913720_finemap_snps.txt
+    jobid: 68
+    wildcards: q=bmd.a.11.96913720
+
+Submitted job 68 with external jobid 'Your job 4796431 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:11:59 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.18.38659321_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.18.38659321_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.18.38659321_finemap_snps.txt
+    jobid: 75
+    wildcards: q=bmd.18.38659321
+
+Submitted job 75 with external jobid 'Your job 4796432 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:01 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.8139647_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.8139647_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.8139647_finemap_snps.txt
+    jobid: 58
+    wildcards: q=activity30.13.8139647
+
+Submitted job 58 with external jobid 'Your job 4796433 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:02 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.96852500_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.96852500_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.96852500_finemap_snps.txt
+    jobid: 36
+    wildcards: q=activity.middle.11.96852500
+
+Submitted job 36 with external jobid 'Your job 4796434 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:03 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.113404971_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.113404971_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.113404971_finemap_snps.txt
+    jobid: 95
+    wildcards: q=soleus.13.113404971
+
+Submitted job 95 with external jobid 'Your job 4796435 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:05 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.21721308_finemap_snps.txt
+    jobid: 76
+    wildcards: q=bmd.5.21721308
+
+Submitted job 76 with external jobid 'Your job 4796436 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:06 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.84134413_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.84134413_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.84134413_finemap_snps.txt
+    jobid: 9
+    wildcards: q=EDL.2.84134413
+
+[Sun Oct 18 17:12:07 2020]
+Error in rule summarize_finemapping:
+    jobid: 35
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.95651415_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.95651415_finemap_snps.txt
+    cluster_jobid: Your job 4796411 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 35, external: Your job 4796411 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.35.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 9 with external jobid 'Your job 4796438 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:08 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.95761488_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.95761488_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.95761488_finemap_snps.txt
+    jobid: 67
+    wildcards: q=bmd.a.11.95761488
+
+Submitted job 67 with external jobid 'Your job 4796439 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:09 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.2.155505679_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.2.155505679_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.2.155505679_finemap_snps.txt
+    jobid: 98
+    wildcards: q=soleus.2.155505679
+
+Submitted job 98 with external jobid 'Your job 4796441 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:11 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.83514944_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.83514944_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.83514944_finemap_snps.txt
+    jobid: 109
+    wildcards: q=tibia.12.83514944
+
+Submitted job 109 with external jobid 'Your job 4796442 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:13 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_finemap_snps.txt
+    jobid: 34
+    wildcards: q=activity.middle.11.94054029
+
+Submitted job 34 with external jobid 'Your job 4796443 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:14 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.86662262_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.86662262_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.86662262_finemap_snps.txt
+    jobid: 11
+    wildcards: q=EDL.2.86662262
+
+Submitted job 11 with external jobid 'Your job 4796444 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:15 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.94758993_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.94758993_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.a.11.94758993_finemap_snps.txt
+    jobid: 66
+    wildcards: q=bmd.a.11.94758993
+
+Submitted job 66 with external jobid 'Your job 4796445 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:17 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.96918212_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.96918212_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.96918212_finemap_snps.txt
+    jobid: 81
+    wildcards: q=bmd.n.11.96918212
+
+Submitted job 81 with external jobid 'Your job 4796446 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:18 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.10150339_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.10150339_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.10150339_finemap_snps.txt
+    jobid: 29
+    wildcards: q=activity.end.13.10150339
+
+Submitted job 29 with external jobid 'Your job 4796447 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:19 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.79522084_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.79522084_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.11.79522084_finemap_snps.txt
+    jobid: 13
+    wildcards: q=TA.11.79522084
+
+[Sun Oct 18 17:12:20 2020]
+Finished job 90.
+1 of 133 steps (0.75%) done
+Submitted job 13 with external jobid 'Your job 4796448 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:21 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_finemap_snps.txt
+    jobid: 46
+    wildcards: q=activity.total.11.95651415
+
+[Sun Oct 18 17:12:22 2020]
+Error in rule summarize_finemapping:
+    jobid: 83
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.23815043_finemap_snps.txt
+    cluster_jobid: Your job 4796427 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 83, external: Your job 4796427 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.83.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 46 with external jobid 'Your job 4796450 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:23 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.2.89914086_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.2.89914086_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.2.89914086_finemap_snps.txt
+    jobid: 53
+    wildcards: q=activity.total.2.89914086
+
+Submitted job 53 with external jobid 'Your job 4796451 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:24 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.95761488_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.95761488_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.95761488_finemap_snps.txt
+    jobid: 72
+    wildcards: q=bmd.11.95761488
+
+Submitted job 72 with external jobid 'Your job 4796452 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:26 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.13.116222549_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.13.116222549_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.13.116222549_finemap_snps.txt
+    jobid: 91
+    wildcards: q=plantaris.13.116222549
+
+Submitted job 91 with external jobid 'Your job 4796453 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:27 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.15600158_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.15600158_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.15600158_finemap_snps.txt
+    jobid: 100
+    wildcards: q=soleus.6.15600158
+
+Submitted job 100 with external jobid 'Your job 4796454 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:28 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.96816215_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.96816215_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.96816215_finemap_snps.txt
+    jobid: 61
+    wildcards: q=basal.activity.11.96816215
+
+Submitted job 61 with external jobid 'Your job 4796455 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:31 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.80408302_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.80408302_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.80408302_finemap_snps.txt
+    jobid: 120
+    wildcards: q=tibia.9.80408302
+
+Submitted job 120 with external jobid 'Your job 4796456 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:33 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.85453160_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.85453160_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.85453160_finemap_snps.txt
+    jobid: 10
+    wildcards: q=EDL.2.85453160
+
+Submitted job 10 with external jobid 'Your job 4796457 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:34 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.96653605_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.96653605_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.96653605_finemap_snps.txt
+    jobid: 28
+    wildcards: q=activity.end.11.96653605
+
+Submitted job 28 with external jobid 'Your job 4796459 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:36 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147027848_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147027848_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147027848_finemap_snps.txt
+    jobid: 117
+    wildcards: q=tibia.6.147027848
+
+Submitted job 117 with external jobid 'Your job 4796460 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:37 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.39698535_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.39698535_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.39698535_finemap_snps.txt
+    jobid: 114
+    wildcards: q=tibia.5.39698535
+
+[Sun Oct 18 17:12:38 2020]
+Error in rule summarize_finemapping:
+    jobid: 36
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.96852500_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.96852500_finemap_snps.txt
+    cluster_jobid: Your job 4796434 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 36, external: Your job 4796434 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.36.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 114 with external jobid 'Your job 4796461 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:39 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.80905518_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.80905518_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.80905518_finemap_snps.txt
+    jobid: 103
+    wildcards: q=tail.length.8.80905518
+
+Submitted job 103 with external jobid 'Your job 4796462 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:40 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.8209788_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.8209788_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.8209788_finemap_snps.txt
+    jobid: 32
+    wildcards: q=activity.end.13.8209788
+
+Submitted job 32 with external jobid 'Your job 4796463 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:41 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.3.15783853_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.3.15783853_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.3.15783853_finemap_snps.txt
+    jobid: 99
+    wildcards: q=soleus.3.15783853
+
+Submitted job 99 with external jobid 'Your job 4796464 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:43 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_finemap_snps.txt
+    jobid: 84
+    wildcards: q=bmd.n.5.24920012
+
+Submitted job 84 with external jobid 'Your job 4796465 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:44 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.10150339_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.10150339_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.10150339_finemap_snps.txt
+    jobid: 37
+    wildcards: q=activity.middle.13.10150339
+
+Submitted job 37 with external jobid 'Your job 4796466 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:45 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.113025220_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.113025220_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.113025220_finemap_snps.txt
+    jobid: 2
+    wildcards: q=EDL.13.113025220
+
+Submitted job 2 with external jobid 'Your job 4796468 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:47 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.114188942_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.114188942_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.13.114188942_finemap_snps.txt
+    jobid: 3
+    wildcards: q=EDL.13.114188942
+
+Submitted job 3 with external jobid 'Your job 4796469 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:48 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.5954638_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.5954638_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.5954638_finemap_snps.txt
+    jobid: 49
+    wildcards: q=activity.total.13.5954638
+
+[Sun Oct 18 17:12:49 2020]
+Error in rule summarize_finemapping:
+    jobid: 46
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.95651415_finemap_snps.txt
+    cluster_jobid: Your job 4796450 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 46, external: Your job 4796450 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.46.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 49 with external jobid 'Your job 4796471 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:49 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.148328439_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.148328439_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.148328439_finemap_snps.txt
+    jobid: 119
+    wildcards: q=tibia.6.148328439
+
+Submitted job 119 with external jobid 'Your job 4796472 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:51 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.11500538_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.11500538_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.15.11500538_finemap_snps.txt
+    jobid: 112
+    wildcards: q=tibia.15.11500538
+
+Submitted job 112 with external jobid 'Your job 4796473 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:52 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_finemap_snps.txt
+    jobid: 45
+    wildcards: q=activity.total.11.93418612
+
+Submitted job 45 with external jobid 'Your job 4796474 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:53 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.155819633_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.155819633_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.155819633_finemap_snps.txt
+    jobid: 18
+    wildcards: q=TA.2.155819633
+
+[Sun Oct 18 17:12:54 2020]
+Error in rule summarize_finemapping:
+    jobid: 34
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.11.94054029_finemap_snps.txt
+    cluster_jobid: Your job 4796443 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 34, external: Your job 4796443 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.34.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 18 with external jobid 'Your job 4796475 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:55 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.88973192_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.88973192_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.88973192_finemap_snps.txt
+    jobid: 86
+    wildcards: q=gastroc.11.88973192
+
+Submitted job 86 with external jobid 'Your job 4796476 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:56 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.18123198_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.18123198_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.6.18123198_finemap_snps.txt
+    jobid: 101
+    wildcards: q=soleus.6.18123198
+
+Submitted job 101 with external jobid 'Your job 4796477 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:57 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.154645131_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.154645131_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/TA.2.154645131_finemap_snps.txt
+    jobid: 17
+    wildcards: q=TA.2.154645131
+
+Submitted job 17 with external jobid 'Your job 4796478 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:12:59 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.7101524_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.7101524_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.7101524_finemap_snps.txt
+    jobid: 31
+    wildcards: q=activity.end.13.7101524
+
+Submitted job 31 with external jobid 'Your job 4796479 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:00 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.94772022_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.94772022_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.94772022_finemap_snps.txt
+    jobid: 20
+    wildcards: q=activity.begin.11.94772022
+
+Submitted job 20 with external jobid 'Your job 4796481 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:01 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.8153523_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.8153523_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.8153523_finemap_snps.txt
+    jobid: 23
+    wildcards: q=activity.begin.13.8153523
+
+Submitted job 23 with external jobid 'Your job 4796482 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:03 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.96952835_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.96952835_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.96952835_finemap_snps.txt
+    jobid: 108
+    wildcards: q=tibia.11.96952835
+
+Submitted job 108 with external jobid 'Your job 4796483 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:04 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91175287_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91175287_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.12.91175287_finemap_snps.txt
+    jobid: 110
+    wildcards: q=tibia.12.91175287
+
+Submitted job 110 with external jobid 'Your job 4796484 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:05 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_finemap_snps.txt
+    jobid: 8
+    wildcards: q=EDL.2.83000091
+
+Submitted job 8 with external jobid 'Your job 4796485 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:07 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.85054834_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.85054834_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.9.85054834_finemap_snps.txt
+    jobid: 123
+    wildcards: q=tibia.9.85054834
+
+Submitted job 123 with external jobid 'Your job 4796486 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:09 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.2.155856984_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.2.155856984_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.2.155856984_finemap_snps.txt
+    jobid: 88
+    wildcards: q=gastroc.2.155856984
+
+Submitted job 88 with external jobid 'Your job 4796487 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:10 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.95673447_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.95673447_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.11.95673447_finemap_snps.txt
+    jobid: 60
+    wildcards: q=basal.activity.11.95673447
+
+[Sun Oct 18 17:13:11 2020]
+Error in rule summarize_finemapping:
+    jobid: 84
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.5.24920012_finemap_snps.txt
+    cluster_jobid: Your job 4796465 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 84, external: Your job 4796465 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.84.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 60 with external jobid 'Your job 4796488 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:12 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.40708978_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.40708978_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.5.40708978_finemap_snps.txt
+    jobid: 115
+    wildcards: q=tibia.5.40708978
+
+Submitted job 115 with external jobid 'Your job 4796489 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:13 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.6323352_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.6323352_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.13.6323352_finemap_snps.txt
+    jobid: 30
+    wildcards: q=activity.end.13.6323352
+
+Submitted job 30 with external jobid 'Your job 4796491 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:15 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.96653605_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.96653605_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.96653605_finemap_snps.txt
+    jobid: 47
+    wildcards: q=activity.total.11.96653605
+
+Submitted job 47 with external jobid 'Your job 4796492 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:20 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.9.81882866_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.9.81882866_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.9.81882866_finemap_snps.txt
+    jobid: 54
+    wildcards: q=activity.total.9.81882866
+
+[Sun Oct 18 17:13:22 2020]
+Error in rule summarize_finemapping:
+    jobid: 45
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.93418612_finemap_snps.txt
+    cluster_jobid: Your job 4796474 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 45, external: Your job 4796474 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.45.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 54 with external jobid 'Your job 4796493 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:23 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.12.83323871_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.12.83323871_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.12.83323871_finemap_snps.txt
+    jobid: 124
+    wildcards: q=weight.bmi.tibia.12.83323871
+
+Submitted job 124 with external jobid 'Your job 4796494 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:24 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.8924722_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.8924722_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.8924722_finemap_snps.txt
+    jobid: 126
+    wildcards: q=weight.bmi.tibia.13.8924722
+
+Submitted job 126 with external jobid 'Your job 4796495 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:26 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.7101524_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.7101524_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/basal.activity.13.7101524_finemap_snps.txt
+    jobid: 64
+    wildcards: q=basal.activity.13.7101524
+
+Submitted job 64 with external jobid 'Your job 4796497 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:27 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.7101524_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.7101524_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.13.7101524_finemap_snps.txt
+    jobid: 38
+    wildcards: q=activity.middle.13.7101524
+
+Submitted job 38 with external jobid 'Your job 4796498 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:28 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.153696216_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.153696216_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.153696216_finemap_snps.txt
+    jobid: 25
+    wildcards: q=activity.begin.2.153696216
+
+[Sun Oct 18 17:13:29 2020]
+Error in rule summarize_finemapping:
+    jobid: 20
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.94772022_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.94772022_finemap_snps.txt
+    cluster_jobid: Your job 4796481 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 20, external: Your job 4796481 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.20.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 25 with external jobid 'Your job 4796499 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:30 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.27366822_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.27366822_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.27366822_finemap_snps.txt
+    jobid: 79
+    wildcards: q=bmd.5.27366822
+
+Submitted job 79 with external jobid 'Your job 4796500 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:31 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.81878779_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.81878779_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tail.length.8.81878779_finemap_snps.txt
+    jobid: 104
+    wildcards: q=tail.length.8.81878779
+
+Submitted job 104 with external jobid 'Your job 4796501 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:32 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147721449_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147721449_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.6.147721449_finemap_snps.txt
+    jobid: 118
+    wildcards: q=tibia.6.147721449
+
+Submitted job 118 with external jobid 'Your job 4796502 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:34 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.37094289_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.37094289_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.17.37094289_finemap_snps.txt
+    jobid: 133
+    wildcards: q=weight.17.37094289
+
+Submitted job 133 with external jobid 'Your job 4796503 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:35 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.93469819_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.93469819_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.11.93469819_finemap_snps.txt
+    jobid: 70
+    wildcards: q=bmd.11.93469819
+
+Submitted job 70 with external jobid 'Your job 4796504 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:36 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.95636638_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.95636638_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.end.11.95636638_finemap_snps.txt
+    jobid: 27
+    wildcards: q=activity.end.11.95636638
+
+Submitted job 27 with external jobid 'Your job 4796505 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:38 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8144012_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8144012_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8144012_finemap_snps.txt
+    jobid: 51
+    wildcards: q=activity.total.13.8144012
+
+Submitted job 51 with external jobid 'Your job 4796506 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:39 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.2.155812908_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.2.155812908_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/plantaris.2.155812908_finemap_snps.txt
+    jobid: 92
+    wildcards: q=plantaris.2.155812908
+
+[Sun Oct 18 17:13:40 2020]
+Error in rule summarize_finemapping:
+    jobid: 8
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.83000091_finemap_snps.txt
+    cluster_jobid: Your job 4796485 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 8, external: Your job 4796485 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 92 with external jobid 'Your job 4796508 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:40 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.114802392_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.114802392_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/soleus.13.114802392_finemap_snps.txt
+    jobid: 96
+    wildcards: q=soleus.13.114802392
+
+Submitted job 96 with external jobid 'Your job 4796509 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:42 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.7632884_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.7632884_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.7632884_finemap_snps.txt
+    jobid: 22
+    wildcards: q=activity.begin.13.7632884
+
+Submitted job 22 with external jobid 'Your job 4796510 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:43 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.79954876_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.79954876_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/gastroc.11.79954876_finemap_snps.txt
+    jobid: 85
+    wildcards: q=gastroc.11.79954876
+
+Submitted job 85 with external jobid 'Your job 4796511 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:45 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.23814155_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.23814155_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.5.23814155_finemap_snps.txt
+    jobid: 77
+    wildcards: q=bmd.5.23814155
+
+Submitted job 77 with external jobid 'Your job 4796512 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:46 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.95582360_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.95582360_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.n.11.95582360_finemap_snps.txt
+    jobid: 80
+    wildcards: q=bmd.n.11.95582360
+
+[Sun Oct 18 17:13:46 2020]
+Finished job 109.
+2 of 133 steps (2%) done
+Submitted job 80 with external jobid 'Your job 4796513 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:47 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_finemap_snps.txt
+    jobid: 7
+    wildcards: q=EDL.2.80039850
+
+[Sun Oct 18 17:13:48 2020]
+Error in rule summarize_finemapping:
+    jobid: 47
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.96653605_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.11.96653605_finemap_snps.txt
+    cluster_jobid: Your job 4796492 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 47, external: Your job 4796492 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.47.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 7 with external jobid 'Your job 4796514 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:49 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_finemap_snps.txt
+    jobid: 106
+    wildcards: q=tibia.11.33440009
+
+Submitted job 106 with external jobid 'Your job 4796515 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:50 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_finemap_snps.txt
+    jobid: 125
+    wildcards: q=weight.bmi.tibia.13.5655594
+
+Submitted job 125 with external jobid 'Your job 4796516 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:51 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/glucose.1.152192170_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/glucose.1.152192170_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/glucose.1.152192170_finemap_snps.txt
+    jobid: 89
+    wildcards: q=glucose.1.152192170
+
+Submitted job 89 with external jobid 'Your job 4796517 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:53 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8800578_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8800578_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.8800578_finemap_snps.txt
+    jobid: 52
+    wildcards: q=activity.total.13.8800578
+
+Submitted job 52 with external jobid 'Your job 4796519 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:54 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.15.86382123_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.15.86382123_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/bmd.15.86382123_finemap_snps.txt
+    jobid: 74
+    wildcards: q=bmd.15.86382123
+
+Submitted job 74 with external jobid 'Your job 4796520 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:56 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.77669072_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.77669072_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.77669072_finemap_snps.txt
+    jobid: 5
+    wildcards: q=EDL.2.77669072
+
+Submitted job 5 with external jobid 'Your job 4796521 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:57 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.95761488_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.95761488_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.95761488_finemap_snps.txt
+    jobid: 107
+    wildcards: q=tibia.11.95761488
+
+Submitted job 107 with external jobid 'Your job 4796522 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:13:58 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.155780222_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.155780222_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.155780222_finemap_snps.txt
+    jobid: 4
+    wildcards: q=EDL.2.155780222
+
+Submitted job 4 with external jobid 'Your job 4796523 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:14:00 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.10144490_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.10144490_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.total.13.10144490_finemap_snps.txt
+    jobid: 48
+    wildcards: q=activity.total.13.10144490
+
+[Sun Oct 18 17:14:00 2020]
+Error in rule summarize_finemapping:
+    jobid: 25
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.153696216_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.2.153696216_finemap_snps.txt
+    cluster_jobid: Your job 4796499 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 25, external: Your job 4796499 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.25.sh). For error details see the cluster log and the log files of the involved rule(s).
+Submitted job 48 with external jobid 'Your job 4796524 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:14:01 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.9154368_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.9154368_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.13.9154368_finemap_snps.txt
+    jobid: 24
+    wildcards: q=activity.begin.13.9154368
+
+Submitted job 24 with external jobid 'Your job 4796525 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:14:02 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.93418612_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.93418612_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.begin.11.93418612_finemap_snps.txt
+    jobid: 19
+    wildcards: q=activity.begin.11.93418612
+
+Submitted job 19 with external jobid 'Your job 4796526 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:14:04 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.10150339_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.10150339_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity30.13.10150339_finemap_snps.txt
+    jobid: 55
+    wildcards: q=activity30.13.10150339
+
+Submitted job 55 with external jobid 'Your job 4796527 ("summarize_finemapping") has been submitted'.
+
+[Sun Oct 18 17:14:06 2020]
+rule summarize_finemapping:
+    input: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.153760436_snps.txt
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.153760436_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.153760436_finemap_snps.txt
+    jobid: 42
+    wildcards: q=activity.middle.2.153760436
+
+Submitted job 42 with external jobid 'Your job 4796529 ("summarize_finemapping") has been submitted'.
+[Sun Oct 18 17:14:09 2020]
+Error in rule summarize_finemapping:
+    jobid: 106
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/tibia.11.33440009_finemap_snps.txt
+    cluster_jobid: Your job 4796515 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 106, external: Your job 4796515 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.106.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:14:20 2020]
+Error in rule summarize_finemapping:
+    jobid: 7
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/EDL.2.80039850_finemap_snps.txt
+    cluster_jobid: Your job 4796514 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 7, external: Your job 4796514 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:14:29 2020]
+Error in rule summarize_finemapping:
+    jobid: 125
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/weight.bmi.tibia.13.5655594_finemap_snps.txt
+    cluster_jobid: Your job 4796516 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 125, external: Your job 4796516 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.125.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:14:40 2020]
+Error in rule summarize_finemapping:
+    jobid: 42
+    output: /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.153760436_all_snps.txt, /u/home/j/jzou1115/project-zarlab/CFW/confidence_interval_pipeline_out_pruned/finemapping/output/activity.middle.2.153760436_finemap_snps.txt
+    cluster_jobid: Your job 4796529 ("summarize_finemapping") has been submitted
+
+Error executing rule summarize_finemapping on cluster (jobid: 42, external: Your job 4796529 ("summarize_finemapping") has been submitted, jobscript: /u/project/zarlab/jzou1115/CFW/MegaAnalysis_CFW_Code/confidence_interval_pipeline_pruned/.snakemake/tmp.nan98m_n/snakejob.summarize_finemapping.42.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Sun Oct 18 17:15:43 2020]
+Finished job 111.
+3 of 133 steps (2%) done
+[Sun Oct 18 17:15:45 2020]
+Finished job 87.
+4 of 133 steps (3%) done
+[Sun Oct 18 17:15:46 2020]
+Finished job 75.
+5 of 133 steps (4%) done
+[Sun Oct 18 17:17:21 2020]
+Finished job 85.
+6 of 133 steps (5%) done
+[Sun Oct 18 17:17:22 2020]
+Finished job 110.
+7 of 133 steps (5%) done
+[Sun Oct 18 17:17:23 2020]
+Finished job 112.
+8 of 133 steps (6%) done
+[Sun Oct 18 17:17:23 2020]
+Finished job 13.
+9 of 133 steps (7%) done
+[Sun Oct 18 17:17:25 2020]
+Finished job 93.
+10 of 133 steps (8%) done
+[Sun Oct 18 17:17:48 2020]
+Finished job 99.
+11 of 133 steps (8%) done
+[Sun Oct 18 17:18:23 2020]
+Finished job 127.
+12 of 133 steps (9%) done
+[Sun Oct 18 17:18:25 2020]
+Finished job 43.
+13 of 133 steps (10%) done
+[Sun Oct 18 17:18:44 2020]
+Finished job 113.
+14 of 133 steps (11%) done
+[Sun Oct 18 17:18:44 2020]
+Finished job 26.
+15 of 133 steps (11%) done
+[Sun Oct 18 17:19:42 2020]
+Finished job 53.
+16 of 133 steps (12%) done
+[Sun Oct 18 17:19:56 2020]
+Finished job 124.
+17 of 133 steps (13%) done
+[Sun Oct 18 17:20:19 2020]
+Finished job 39.
+18 of 133 steps (14%) done
+[Sun Oct 18 17:20:53 2020]
+Finished job 19.
+19 of 133 steps (14%) done
+[Sun Oct 18 17:20:57 2020]
+Finished job 15.
+20 of 133 steps (15%) done
+[Sun Oct 18 17:21:54 2020]
+Finished job 94.
+21 of 133 steps (16%) done
+[Sun Oct 18 17:22:46 2020]
+Finished job 117.
+22 of 133 steps (17%) done
+[Sun Oct 18 17:22:47 2020]
+Finished job 14.
+23 of 133 steps (17%) done
+[Sun Oct 18 17:22:48 2020]
+Finished job 82.
+24 of 133 steps (18%) done
+[Sun Oct 18 17:22:54 2020]
+Finished job 89.
+25 of 133 steps (19%) done
+[Sun Oct 18 17:23:05 2020]
+Finished job 88.
+26 of 133 steps (20%) done
+[Sun Oct 18 17:23:11 2020]
+Finished job 18.
+27 of 133 steps (20%) done
+[Sun Oct 18 17:23:48 2020]
+Finished job 51.
+28 of 133 steps (21%) done
+[Sun Oct 18 17:24:36 2020]
+Finished job 4.
+29 of 133 steps (22%) done
+[Sun Oct 18 17:24:36 2020]
+Finished job 92.
+30 of 133 steps (23%) done
+[Sun Oct 18 17:24:41 2020]
+Finished job 114.
+31 of 133 steps (23%) done
+[Sun Oct 18 17:26:42 2020]
+Finished job 115.
+32 of 133 steps (24%) done
+[Sun Oct 18 17:28:40 2020]
+Finished job 100.
+33 of 133 steps (25%) done
+[Sun Oct 18 17:34:05 2020]
+Finished job 101.
+34 of 133 steps (26%) done
+[Sun Oct 18 17:36:03 2020]
+Finished job 86.
+35 of 133 steps (26%) done
+[Sun Oct 18 17:38:03 2020]
+Finished job 98.
+36 of 133 steps (27%) done
+[Sun Oct 18 17:38:06 2020]
+Finished job 74.
+37 of 133 steps (28%) done
+[Sun Oct 18 17:38:51 2020]
+Finished job 28.
+38 of 133 steps (29%) done
+[Sun Oct 18 17:40:52 2020]
+Finished job 12.
+39 of 133 steps (29%) done
+[Sun Oct 18 17:44:02 2020]
+Finished job 103.
+40 of 133 steps (30%) done
+[Sun Oct 18 17:44:20 2020]
+Finished job 104.
+41 of 133 steps (31%) done
+[Sun Oct 18 17:48:21 2020]
+Finished job 5.
+42 of 133 steps (32%) done
+[Sun Oct 18 17:50:13 2020]
+Finished job 118.
+43 of 133 steps (32%) done
+[Sun Oct 18 17:51:00 2020]
+Finished job 108.
+44 of 133 steps (33%) done
+[Sun Oct 18 17:51:47 2020]
+Finished job 102.
+45 of 133 steps (34%) done
+[Sun Oct 18 17:53:42 2020]
+Finished job 17.
+46 of 133 steps (35%) done
+[Sun Oct 18 17:53:54 2020]
+Finished job 119.
+47 of 133 steps (35%) done
+[Sun Oct 18 17:54:45 2020]
+Finished job 61.
+48 of 133 steps (36%) done
+[Sun Oct 18 17:56:36 2020]
+Finished job 97.
+49 of 133 steps (37%) done
+[Sun Oct 18 17:58:29 2020]
+Finished job 68.
+50 of 133 steps (38%) done
