@@ -36,3 +36,4 @@ There are 3 main sections of analysis that are separated into three directories:
 	- Replication was modelled in model_replication.ipynb
 	- Summary plots were generated in plot_replication.ipynb
 
+4. Peak calling software and script used to call peaks (peak_calling)
